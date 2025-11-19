@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test Folder/Test Note.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test Note"
+              "title": "index"
             }
           }
         ]
@@ -172,11 +172,11 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
-    "index.md",
-    "Test Folder/Test Note.md",
-    "Test Folder",
-    "category-folder/index.md",
     "category-folder/Some note.md",
+    "category-folder/index.md",
+    "Test Folder/Test Note.md",
+    "index.md",
+    "Test Folder",
     "category-folder"
   ]
 }
