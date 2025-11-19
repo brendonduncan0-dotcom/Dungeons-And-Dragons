@@ -1,9 +1,8 @@
 ---
-title: Brendon's Homebrew Dungeons & Dragons Wiki
+title: Brendon's Homebrew D&D Wiki
 ---
 
 Hello world!
 
-Testing if this was successful!!!
-Testing an update from within obsidian...
+Testing a link: [[Some note]]
 
