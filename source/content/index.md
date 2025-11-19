@@ -2,7 +2,9 @@
 title: Brendon's Homebrew D&D Wiki
 ---
 
-Hello world!
+Welcome adventurer, or possible game master.
+
+This 
 
 Testing a link: [[Some note]]
 
