@@ -1,5 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Brendon's Homebrew Dungeons & Dragons Wiki
 ---
 
 Hello world!
