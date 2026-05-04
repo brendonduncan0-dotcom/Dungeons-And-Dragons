@@ -227,8 +227,11 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "ab82134506a10cf1",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Layout Builder Tool.xlsx",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/Layout Builder.xlsx",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/Layout Builder.xlsx",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - No Mans Land.jpg",
@@ -259,8 +262,6 @@
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference",
     "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Zylox the Shapeshifter.md",
     "Games",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands",
-    "Age Of Fantasy Skirmish/Campaigns/Campaign Template",
     "Tools/Claude Skills/dnd-campaign-builder/SKILL.md",
     "Skills/dnd-token-builder/SKILL.md",
     "Tools/Foundry-VTT-Exporter.md",
