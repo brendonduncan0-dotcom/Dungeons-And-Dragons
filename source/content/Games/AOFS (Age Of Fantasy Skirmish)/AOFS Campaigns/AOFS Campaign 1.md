@@ -1,6 +1,7 @@
 ---
 title: Campaign 1
 ---
+
 >[!summary] Campaign Length
 > We are playing seven missions, one per month, and after the last mission, the player with the highest final score wins.
 > 
@@ -26,7 +27,7 @@ title: Campaign 1
 
 | Player  | Warband Name | Faction | VP  | Matches Played | Unspent Pts |
 | ------- | ------------ | ------- | --- | -------------- | ----------- |
-| Brendon |              |         | 0   | 0              | 150         |
+| Brendon |              | Goblins | 0   | 0              | 150         |
 | Mira    |              |         | 0   | 0              | 150         |
 | Chad    |              |         | 0   | 0              | 150         |
 | Grae    |              |         | 0   | 0              | 150         |

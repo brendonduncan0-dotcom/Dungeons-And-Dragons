@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
+                "file": "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOFS Campaign 1"
+              "title": "AOFS Scenario 1"
             }
           }
         ]
@@ -208,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 532.5
+    "width": 532.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +229,16 @@
   },
   "active": "ab82134506a10cf1",
   "lastOpenFiles": [
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign Template.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts/AOFS Scenario 1 Layout.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 1.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts/AOFS Scenario 2 Layout.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 2.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts",
+    "_ObsidianMD/Templates/Blank AOFS Mission.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
+    "_ObsidianMD/Templates/Blank Info.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign Template.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Movement.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Earn Experience.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Special Objectives.md",
@@ -240,7 +249,6 @@
     "_ObsidianMD/Templates/Blank Summary.md",
     "Games/D&D (Dungeons & Dragons)/D&D (Dungeons & Dragons).md",
     "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Ethereal Dreadknight.md",
-    "_ObsidianMD/Templates/Blank Info.md",
     "_ObsidianMD/Templates/Blank Table.md",
     "_ObsidianMD/Templates/Blank Warning.md",
     "index.md",
@@ -253,17 +261,11 @@
     "Games",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands",
     "Age Of Fantasy Skirmish/Campaigns/Campaign Template",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns",
     "Tools/Claude Skills/dnd-campaign-builder/SKILL.md",
     "Skills/dnd-token-builder/SKILL.md",
     "Tools/Foundry-VTT-Exporter.md",
     "Tools/Claude Skills/dnd-statblock-builder prompt.md",
     "Tools/Claude Skills/dnd-location-builder prompt.md",
-    "Todo.md",
-    "Games/D&D (Dungeons & Dragons)",
-    "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Goblin.md",
-    "Campaigns/Spelljammer/Crew Roles/Crew Role - Bosun.md",
-    "Campaigns/Spelljammer/Crew Roles/Crew Role - Spelljammer.md",
     "Tokens/goblin-token.svg",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits2.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits1.webp",
@@ -271,8 +273,6 @@
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/047-12-004.crystal-vines-crumble.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/046-12-003.xaryxis-explodes.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/045-map-12.03-cathedral-of-light-player.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/044-map-12.03-cathedral-of-light.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/043-map-12.02-imperial-citadel-player.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/042-map-12.02-imperial-citadel.webp"
+    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/044-map-12.03-cathedral-of-light.webp"
   ]
 }
