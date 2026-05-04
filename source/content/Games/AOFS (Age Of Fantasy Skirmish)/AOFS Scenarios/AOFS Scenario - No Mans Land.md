@@ -1,5 +1,5 @@
 ---
-title: Scenario 1
+title: Scenario - No Mans Land
 ---
 
 
@@ -23,10 +23,15 @@ title: Scenario 1
 
 >[!summary] Side Missions
 > At the end of the game players get 2 VPs for each side-mission they completed: 
-> - Intimidate - No enemy units are fully within 6” of the table centre. 
-> - Wipe Out - Destroy more enemy units with 3+ models than opponent. 
-> - Assassinate - Destroy the most expensive enemy Hero (if there are multiple, destroy one).
+> - No enemy units are fully within 6” of the table centre. 
+> - Destroy more enemy units than opponent. 
+> - Destroy the most expensive enemy Hero (if there are multiple, destroy one).
+
+>[!summary] Special Objectives
+>In addition to winning/losing players may earn a bonus 10 pts by completing special objectives. 
+>
+>Players roll for a random bonus objective at the start of the game (See [[AOFS Special Objectives]]).
 
 >[!summary] Mission Diagram
-> ![[AOFS Scenario 1 Layout.jpg]]
+> ![[AOFS Scenario - No Mans Land.jpg]]
 

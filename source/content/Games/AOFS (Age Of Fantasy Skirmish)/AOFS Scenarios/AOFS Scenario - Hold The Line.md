@@ -1,5 +1,5 @@
 ---
-title: Scenario 2
+title: Scenario - Hold The Line
 ---
 
 
@@ -23,7 +23,15 @@ title: Scenario 2
 
 >[!summary] Side Missions
 > At the end of the game players get 1 VP for each side-mission they completed: 
-> - Control - Have one or more friendly units fully within 6” of the table centre. 
-> - Massacre - Destroy ten or more enemy models. 
-> - Dispatch - Destroy one enemy Hero and at least 25% of models in the enemy army.
+> - Have one or more friendly units fully within 6” of the table centre. 
+> - Destroy five or more enemy models. 
+> - Destroy one enemy Hero and at least 25% of models in the enemy army.
+
+>[!summary] Special Objectives
+>In addition to winning/losing players may earn a bonus 10 pts by completing special objectives. 
+>
+>Players roll for a random bonus objective at the start of the game (See [[AOFS Special Objectives]]).
+
+>[!summary] Mission Diagram
+> ![[AOFS Scenario - Hold The Line.jpg]]
 

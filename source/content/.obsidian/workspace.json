@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 1.md",
+                "file": "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOFS Scenario 1"
+              "title": "AOFS Scenario - Hold The Line"
             }
           }
         ]
@@ -229,13 +229,14 @@
   },
   "active": "ab82134506a10cf1",
   "lastOpenFiles": [
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts/AOFS Scenario 1 Layout.jpg",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 1.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts/AOFS Scenario 2 Layout.jpg",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario 2.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Layouts",
-    "_ObsidianMD/Templates/Blank AOFS Mission.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - No Mans Land.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - Hold The Line.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams",
+    "_ObsidianMD/Templates/Blank AOFS Mission.md",
     "_ObsidianMD/Templates/Blank Info.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign Template.md",
@@ -243,7 +244,6 @@
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Earn Experience.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Special Objectives.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference/AOFS Check For Casualties.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
     "Untitled.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands/AOFS Warband Template.md",
     "_ObsidianMD/Templates/Blank Summary.md",

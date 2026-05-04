@@ -13,7 +13,7 @@ title: Campaign 1
 >[!summary] Scheduling Matches
 > Campaign games will be played at Brendon & Mira's place on Wednesday's between 6:00pm & 10:00pm.
 > 
-> Each month you will be assigned a match & you will be responsible for organising which Wednesday you play.
+> Each month you will be assigned a match & you will be responsible for organising your game with your opponent.
 > 
 > Please provide us 24 hours notice of your game so we can have the terrain prepared.
 
@@ -37,12 +37,26 @@ title: Campaign 1
 
 ---
 
+## Missions
+
+| Mission | Month     | Scenario                          |
+| ------- | --------- | --------------------------------- |
+| 1       | June      | [[AOFS Scenario - No Mans Land]]  |
+| 2       | July      | [[AOFS Scenario - Hold The Line]] |
+| 3       | August    | To be confirmed...                |
+| 4       | September | To be confirmed...                |
+| 5       | October   | To be confirmed...                |
+| 6       | November  | To be confirmed...                |
+| 7       | December  | To be confirmed...                |
+
+---
+
 ## Mission Reports
 
-| Mission # | Match # | Players | Scenario | Winner | Summary |     |
-| --------- | ------- | ------- | -------- | ------ | ------- | --- |
-| 01        | 01      |         |          |        |         |     |
-|           |         |         |          |        |         |     |
+| Mission # | Match # | Players | Winner |
+| --------- | ------- | ------- | ------ |
+| 01        | 01      |         |        |
+|           |         |         |        |
 
 ---
 
