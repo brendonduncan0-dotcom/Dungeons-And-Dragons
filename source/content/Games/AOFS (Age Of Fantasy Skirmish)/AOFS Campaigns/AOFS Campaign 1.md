@@ -15,7 +15,7 @@ title: Campaign 1
 > 
 > Each month you will be assigned a match & you will be responsible for organising your game with your opponent.
 > 
-> Please provide us 24 hours notice of your game so we can have the terrain prepared.
+> Please provide us at least 24 hours notice of your game so we can have the play space prepared.
 
 >[!warning] Availability Requirement
 >To play in this campaign, you must be available to play on Wednesdays.
@@ -63,7 +63,7 @@ title: Campaign 1
 ## Campaign Rules
 
 >[!summary] Building A Warband
->   Warbands must follow the Force Organization rules:
+>   New warbands must follow the Force Organization rules:
 >  -  **Heroes**: Only one hero per 125pts.
 >   - **Copies of Same Unit**: Only 1+X copies of the same unit, where X is 1 per 125pts.
 >   - **Most Expensive Unit**: No single unit can be worth over 35% of total points.
@@ -82,6 +82,8 @@ title: Campaign 1
 > **Special Objectives:** In addition to the mission objectives, players may earn a bonus 10 pts by completing special objectives. Players roll for a random bonus objective (See [[AOFS Special Objectives]]).
 
 >[!summary] Playing Missions
+>Game Boards:** Campaign games will be played on a premade game board, every mission will have a unique board & all matches for that mission will use the same board.
+>
 > **Mission Length:** Missions are played with standard rules over 4 rounds.
 > 
 > **Resolving Draws:** If after 4 rounds there is no winner, the game continues onto the next round until there is one winner.
