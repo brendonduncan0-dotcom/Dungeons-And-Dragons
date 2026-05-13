@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cb188a93db8d999a",
+        "id": "d8b7af85610840b5",
         "type": "tabs",
         "children": [
           {
-            "id": "ab82134506a10cf1",
+            "id": "09fe454707d9339e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 615.5
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -227,17 +227,31 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "09fe454707d9339e",
   "lastOpenFiles": [
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/AOFS File Pack - Sky City Dwarves.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_GunSword_Shoot_01_02.8365.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Fly_Forward_01_02.8380.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Walk_01_02.8358.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Fly_Forward_03.8381.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_DualGun_Walk_03.8354.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_DualGun_Fly_Shoot_01_02.8378.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - J.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_WalkB_01_02.8361.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Walk_03.8359.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Shoot_03.8357.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images/SteampunkDwarf_Gatling_Shoot_01_02.8356.jpg",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves/Images",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS File Pack - Sky-City Dwarves",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs/AOFS",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS File Packs",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Layout Builder Tool.xlsx",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/Layout Builder.xlsx",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/Layout Builder.xlsx",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - No Mans Land.jpg",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - Hold The Line.jpg",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Scenarios/AOFS Scenario Diagrams",
     "_ObsidianMD/Templates/Blank AOFS Mission.md",
     "_ObsidianMD/Templates/Blank Info.md",
@@ -256,24 +270,9 @@
     "_ObsidianMD/Templates/Blank Warning.md",
     "index.md",
     "_ObsidianMD/Templates",
-    "_ObsidianMD",
-    "_Templates",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Reference",
     "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Zylox the Shapeshifter.md",
-    "Games",
     "Tools/Claude Skills/dnd-campaign-builder/SKILL.md",
     "Skills/dnd-token-builder/SKILL.md",
-    "Tools/Foundry-VTT-Exporter.md",
-    "Tools/Claude Skills/dnd-statblock-builder prompt.md",
-    "Tools/Claude Skills/dnd-location-builder prompt.md",
-    "Tokens/goblin-token.svg",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits2.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits1.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/047-12-004.crystal-vines-crumble.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/046-12-003.xaryxis-explodes.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/045-map-12.03-cathedral-of-light-player.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/044-map-12.03-cathedral-of-light.webp"
+    "Tools/Foundry-VTT-Exporter.md"
   ]
 }

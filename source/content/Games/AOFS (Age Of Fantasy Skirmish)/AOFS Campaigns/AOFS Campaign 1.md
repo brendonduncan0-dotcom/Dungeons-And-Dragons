@@ -25,15 +25,15 @@ title: Campaign 1
 
 ## Warbands
 
-| Player  | Warband Name | Faction | VP  | Matches Played | Unspent Pts |
-| ------- | ------------ | ------- | --- | -------------- | ----------- |
-| Brendon |              | Goblins | 0   | 0              | 150         |
-| Mira    |              |         | 0   | 0              | 150         |
-| Chad    |              |         | 0   | 0              | 150         |
-| Grae    |              |         | 0   | 0              | 150         |
-| AJ      |              |         | 0   | 0              | 150         |
-| Jarret  |              |         | 0   | 0              | 150         |
-| Simon   |              |         | 0   | 0              | 150         |
+| Player  | Warband Name | Faction | File Pack                             | VP  | Matches Played | Unspent Pts |
+| ------- | ------------ | ------- | ------------------------------------- | --- | -------------- | ----------- |
+| Brendon |              | Goblins |                                       | 0   | 0              | 150         |
+| Mira    |              |         |                                       | 0   | 0              | 150         |
+| Chad    |              |         |                                       | 0   | 0              | 150         |
+| Grae    |              |         |                                       | 0   | 0              | 150         |
+| AJ      |              |         |                                       | 0   | 0              | 150         |
+| Jarret  |              |         | [[AOFS File Pack - Sky City Dwarves]] | 0   | 0              | 150         |
+| Simon   |              |         |                                       | 0   | 0              | 150         |
 
 ---
 
