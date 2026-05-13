@@ -2,10 +2,7 @@
 title: File Pack - Sky City Dwarves
 ---
 > [!info] Dwarf Steampunk Pack
-> Created by: Rescale Miniatures
-> 
 > Link: [3D Printable Pack Dwarf Steampunk by Rescale Miniatures](https://www.myminifactory.com/object/3d-print-pack-dwarf-steampunk-459652)
-> 
 > Purchased by: Jarrett
 
 | Name                     | Image 1                                                    | Image 2                                                 |
