@@ -25,15 +25,15 @@ title: Campaign 1
 
 ## Warbands
 
-| Player  | Warband Name | Faction                                                                                                                              | File Pack                             | VP  | Matches Played | Unspent Pts |
-| ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | --- | -------------- | ----------- |
-| Brendon |              | [Goblins](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/q9BQlBp583ZuuOnQ?armyName=Goblins)                   |                                       | 0   | 0              | 150         |
-| Mira    |              |                                                                                                                                      |                                       | 0   | 0              | 150         |
-| Chad    |              | [Human Empire](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/jZ02AVPLx_S48Mnb?armyName=Human+Empire)         |                                       | 0   | 0              | 150         |
-| Grae    |              |                                                                                                                                      |                                       | 0   | 0              | 150         |
-| AJ      |              | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)             |                                       | 0   | 0              | 150         |
-| Jarret  |              | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves) | [[AOFS File Pack - Sky City Dwarves]] | 0   | 0              | 150         |
-| Simon   |              |                                                                                                                                      |                                       | 0   | 0              | 150         |
+| Player  | Warband Name | Faction                                                                                                                                | File Pack                             | VP  | Matches Played | Unspent Pts |
+| ------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --- | -------------- | ----------- |
+| Brendon |              | [Goblins](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/q9BQlBp583ZuuOnQ?armyName=Goblins)                     |                                       | 0   | 0              | 150         |
+| Mira    |              | [Kingdom of Angels](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/RgHxqAlAXnUuF3ty?armyName=Kingdom+of+Angels) |                                       | 0   | 0              | 150         |
+| Chad    |              | [Human Empire](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/jZ02AVPLx_S48Mnb?armyName=Human+Empire)           |                                       | 0   | 0              | 150         |
+| Grae    |              |                                                                                                                                        |                                       | 0   | 0              | 150         |
+| AJ      |              | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)               |                                       | 0   | 0              | 150         |
+| Jarret  |              | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves)   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 0   | 0              | 150         |
+| Simon   |              |                                                                                                                                        |                                       | 0   | 0              | 150         |
 
 ---
 
