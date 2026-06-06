@@ -22,11 +22,7 @@ Each character has six core ability scores — Strength, Dexterity, Constitution
 
 ## Current Campaigns
 
-*Link campaign logs here as they're created. Use the [[D&D Campaign Template]] to start a new one.*
-
-*None yet...*
-
----
+- [[D&D Campaign 1]] — Sunday Adventurers League, Level 3+, episodic contracts
 
 ## Past Campaigns
 
