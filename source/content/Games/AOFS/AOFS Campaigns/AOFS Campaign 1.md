@@ -25,15 +25,15 @@ title: Campaign 1
 
 ## Warbands
 
-| Player  | Warband Link                                                                                             | Faction                                                                                                                                | File Pack                                             | VP  | Matches Played |
-| ------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --- | -------------- |
-| Brendon | [Brendon's Warband](https://army-forge.onepagerules.com/share?id=I58oAcWlvpAG&name=Brendon_Campaign%201) | [Goblins](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/q9BQlBp583ZuuOnQ?armyName=Goblins)                     |                                                       | 8   | 1              |
-| Mira    | [Mira's Warband](https://army-forge.onepagerules.com/share?id=e6RkKpnq_cNj&name=Mira_Campaign%201)       | [Kingdom of Angels](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/RgHxqAlAXnUuF3ty?armyName=Kingdom+of+Angels) |                                                       | 0   | 0              |
-| Chad    | [Chad'd Warband](https://army-forge.onepagerules.com/share?id=ItqOkaeLb9mJ&name=Chad_Campaign%201)       | [Human Empire](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/jZ02AVPLx_S48Mnb?armyName=Human+Empire)           |                                                       | 0   | 0              |
-| Grae    |                                                                                                          |                                                                                                                                        |                                                       | 0   | 0              |
-| AJ      | [AJ's Warband'](https://army-forge.onepagerules.com/share?id=qrIlDJ6Zcq_o&name=AJ_Campaign%201)          | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)               |                                                       | 0   | 0              |
-| Jarret  | [Jarrett's Warband](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves)   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 0   | 1              |
-| Simon   |                                                                                                          |                                                                                                                                        |                                                       | 0   | 0              |
+| Player  | Warband Link                                                                                             | Faction                                                                                                                                | File Pack                                             | VP  | Matches Played | Wins |
+| ------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --- | -------------- | ---- |
+| Brendon | [Brendon's Warband](https://army-forge.onepagerules.com/share?id=I58oAcWlvpAG&name=Brendon_Campaign%201) | [Goblins](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/q9BQlBp583ZuuOnQ?armyName=Goblins)                     |                                                       | 8   | 1              | 0    |
+| Mira    | [Mira's Warband](https://army-forge.onepagerules.com/share?id=e6RkKpnq_cNj&name=Mira_Campaign%201)       | [Kingdom of Angels](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/RgHxqAlAXnUuF3ty?armyName=Kingdom+of+Angels) |                                                       | 0   | 0              | 0    |
+| Chad    | [Chad'd Warband](https://army-forge.onepagerules.com/share?id=ItqOkaeLb9mJ&name=Chad_Campaign%201)       | [Human Empire](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/jZ02AVPLx_S48Mnb?armyName=Human+Empire)           |                                                       | 0   | 0              | 0    |
+| Grae    | Joining Later                                                                                            | Joining Later                                                                                                                          |                                                       | 0   | 0              | 0    |
+| AJ      | [AJ's Warband'](https://army-forge.onepagerules.com/share?id=qrIlDJ6Zcq_o&name=AJ_Campaign%201)          | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)               |                                                       | 0   | 0              | 1    |
+| Jarret  | [Jarrett's Warband](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves)   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 0   | 1              | 0    |
+| Simon   |                                                                                                          | [Wood Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/qtuyeoRfXKlNflK0?armyName=Wood+Elves)               |                                                       | 0   | 0              | 0    |
 
 ---
 
@@ -53,10 +53,11 @@ title: Campaign 1
 
 ## Mission Reports
 
-| Mission # | Match # | Players | Winner |
-| --------- | ------- | ------- | ------ |
-| 01        | 01      |         |        |
-|           |         |         |        |
+| Mission # | Match # | Players         | Winner |
+| --------- | ------- | --------------- | ------ |
+| 01        | 01      | AJ vs Jarrett   | AJ     |
+| 01        | 02      | Brendon vs Chad |        |
+| 01        | 03      | Mira vs Simon   |        |
 
 ---
 
