@@ -17,7 +17,9 @@ title: Scenario - No Mans Land
 > The player that has won the deployment roll-off gets the first turn.
 
 >[!summary] Scoring
-> At the end of the game players get 2 VPs for each objective marker they control, plus 2 VPs if they control more markers than their opponent. 
+> At the end of a round, players get 1 VP for each objective marker they control.
+> 
+> At the end of the game players get 2 VPs for each objective marker they control, plus 2 VPs if they control more markers than their opponent.
 > 
 > The game ends after 4 rounds, and the player that scored most VPs wins.
 
