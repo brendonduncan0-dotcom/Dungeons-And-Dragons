@@ -13,7 +13,7 @@ tags:
 - **Party size:** 5 players total (rotating DM — 1 player always runs as Dungeon Master, 3–4 remaining players are active Player Characters each session)
 - **Character level:** 3 (update as the campaign progresses)
 - **Difficulty:** Medium — encounters are designed to drain resources (spell slots, consumables, limited-use abilities) rather than maximise lethality. Death is on the table for poor decisions but must always be clearly telegraphed in advance. Surprise instakills and unavoidable TPKs are off the table.
-- **Setting:** Forgotten Realms. The campaign is anchored to the guild headquarters (see World & Lore).
+- **Setting:** Forgotten Realms. The guild headquarters sits in the outskirts of Waterdeep, on the Sword Coast. The campaign is anchored to the guild headquarters (see World & Lore).
 
 ## Theme & Tone
 
@@ -61,7 +61,7 @@ Resurrection services are available but carry meaningful cost:
 - The specific mechanics and failure chance are to be set by the DM running the relevant session.
 
 ### Curse & Disease Removal
-Removing curses or diseases through the guild's Wizard Shop or Potion Shop is not a simple gold transaction. When a character needs this service, it **triggers a dedicated one-shot** in which the party collects the required materials. The service is then provided on successful completion.
+Curse and disease removal are straightforward paid services available directly from the guild's [[The Bubbling Cauldron|Potion Shop]] (disease) and [[Bilgo Bangwiz Bazaar|Wizard Shop]] (curses) — gold cost scales with the diagnosed severity tier, paid on the spot, no materials quest required. See [[Curse and Disease Removal]] for the full procedure and pricing reference.
 
 ## Penalties
 
@@ -80,23 +80,9 @@ Rank advancement should feel earned and meaningful. The DM should tie rank miles
 
 ### The Guild Headquarters
 
-The guild headquarters is a large self-sufficient castle complex — think a working institution with everything its members could need under one roof. It functions as the campaign's home base, social hub, and persistent world anchor.
+The party's home base is the **Faerûn Adventure League**, headquartered in a self-sufficient castle complex in the outskirts of Waterdeep, on the Sword Coast.
 
-**Confirmed services:**
-
-| Service | Details |
-|---|---|
-| General Store | Everyday adventuring supplies, rations, rope, torches, tools |
-| Potion Shop | Potions, alchemical items; also provides **disease removal** (requires materials one-shot) |
-| Blacksmith | Armour repair, non-magical weapon and armour crafting |
-| Weapon Shop | Standard and martial weapons for purchase |
-| Tavern | Food, drinks, rumours, downtime socialising |
-| Wizard Shop | Arcane supplies; **curse removal** (requires materials one-shot); **retainer-based death insurance** |
-
-The castle also houses member quarters, training facilities, and guild administrative offices. The internal structure (houses, classes, other amenities) is to be developed over early sessions as the party explores the headquarters.
-
-**Name:** TBD — establish in Session 1
-**Location:** Forgotten Realms — specific region TBD
+See [[The Guild Headquarters]] for the full location note — services, shopping district, named NPCs, and notable features. Update that note (not this one) as the castle is explored further.
 
 ### Known Factions, Locations, and NPCs
 
@@ -106,15 +92,13 @@ The castle also houses member quarters, training facilities, and guild administr
 
 The campaign uses a rotating Dungeon Master arrangement. All 5 players have a character; 3–4 are active in any given session while 1 runs the adventure.
 
-| Character Name | Class / Subclass | Player | Backstory Hooks |
-|---|---|---|---|
-| TBD | TBD | TBD | — |
-| TBD | TBD | TBD | — |
-| TBD | TBD | TBD | — |
-| TBD | TBD | TBD | — |
-| TBD | TBD | TBD | — |
-
-*Update this table once players confirm their characters.*
+| Character Name | Race     | Class / Subclass           | Player         | Backstory Hooks                                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | -------- | -------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lady Cordelia  | Human    | Rogue / Misfortune Bringer | Tim Star       | Born of a nobly family who is now threatening to cut off her access to the family wealth unless she makes something of herself. Her family has enrolled her in the adventurers guild.                                                                                                                                                                                 |
+| Rook           | Halfling | Warlock / Archfey          | Tim Amos (Fro) | Rook is an ordinary ferry runner who has come in sudden "good luck". His good luck is actually an Archfey patron secretly steering him into a bigger story. The Archfey has taken on the appearance of a cat with wings who he has named as captain. (Appears as a normal cat to Rook who has taken them on as a pet)                                                 |
+| Rindle         | Gnome    | Artificer / Alchemist      | Mira Duncan    | —                                                                                                                                                                                                                                                                                                                                                                     |
+| Brok           | Orc      | Fighter / Battlemaster     | Brendon Duncan | Brok was an orc nomad, hired as a caravan guard by a goblin merchant named Gallywinx. Due to his large stature, he hasn't had to fight much, his presence is usually enough to intimidate would-be bandits & thugs. He was pushed to join the adventurers guild by Gallywinx who thought he would really be able to make a name for himself there & earn a real life. |
+| Draco          | Hame     | Ranger / Hunter            | James Reynolds | —                                                                                                                                                                                                                                                                                                                                                                     |
 
 ## One-Shots
 
