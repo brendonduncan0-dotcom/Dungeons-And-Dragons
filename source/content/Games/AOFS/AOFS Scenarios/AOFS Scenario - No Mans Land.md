@@ -23,12 +23,6 @@ title: Scenario - No Mans Land
 > 
 > The game ends after 4 rounds, and the player that scored most VPs wins.
 
->[!summary] Side Missions
-> At the end of the game players get 2 VPs for each side-mission they completed: 
-> - No enemy units are fully within 6” of the table centre. 
-> - Destroy more enemy units than opponent. 
-> - Destroy the most expensive enemy Hero (if there are multiple, destroy one).
-
 >[!summary] Special Objectives
 >In addition to winning/losing players may earn a bonus 10 pts by completing special objectives. 
 >

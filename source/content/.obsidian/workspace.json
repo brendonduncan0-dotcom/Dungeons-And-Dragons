@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
+                "file": "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOFS Campaign 1"
+              "title": "AOFS Scenario - No Mans Land"
             }
           }
         ]
@@ -229,6 +229,11 @@
   },
   "active": "42a62a3f22dba9a9",
   "lastOpenFiles": [
+    "Games/AOFS/AOFS.md",
+    "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
+    "Games/AOFS/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
+    "Games/AOFS/AOFS Reference/AOFS Special Objectives.md",
+    "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/D&D Campaign 1.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/One-Shot 1 - One Giant Leap for Ratkin.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Recurring Elements/Events/Player Death.md",
@@ -240,9 +245,6 @@
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Recurring Elements/Locations/The Bubbling Cauldron.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Recurring Elements/Locations/Missy's Magnificent Miscellaneous Merchandise.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Recurring Elements/Locations/The Guild Headquarters.md",
-    "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
-    "Games/AOFS/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
-    "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
     "Games/D&D/D&D Statblocks/Zylox the Shapeshifter.md",
     "Games/D&D/D&D Statblocks/Goblin Warlord.md",
     "Games/D&D/D&D Statblocks/Goblin.md",
@@ -254,10 +256,8 @@
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/Encounters/Rooftop Reckoning.md",
     "Games/D&D/D&D.md",
     "index.md",
-    "Games/AOFS/AOFS.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 2 - The Warrens Below/Encounters/Into the Warren.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 1 - The Rat Report/Locations/The Scratched Wall District.md",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 2 - The Warrens Below/Locations/The Great Warren.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/NPCs",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/Locations",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/Encounters",
