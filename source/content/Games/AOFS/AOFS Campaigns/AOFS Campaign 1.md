@@ -65,7 +65,7 @@ title: Campaign 1
 
 >[!summary] Building A Warband
 >   New warbands must follow the Force Organization rules:
->  -  **Heroes**: Only one hero per 125pts.
+>  -  **Heroes**: Only one hero per 125pts. (Continues to apply)
 >   - **Copies of Same Unit**: Only 1+X copies of the same unit, where X is 1 per 125pts.
 >   - **Most Expensive Unit**: No single unit can be worth over 35% of total points.
 >   - **Total Units**: Only 1 unit per 25pts.
@@ -74,6 +74,8 @@ title: Campaign 1
 > New warbands receive 150pts and late joiners receive an additional 25pts for each mission they missed.
 > 
 > Players may save up to 30pts to be spent later.
+> 
+> Force organizaton rules are not applied when recruiting units & upgrading warbands.
 
 >[!summary] Mission Setup
 > **The Warbands:** There are no point limits in campaign games, however no warband may bring over 50pts more than the value of the warband with the lowest point value. Note that players don't have to bring all units from their warband when playing a game.
@@ -120,6 +122,7 @@ title: Campaign 1
 > 
 > When selling upgrades worth less than 0pts, you must spend their full points cost instead of gaining them.
 > 
+> Players may only recruit one hero per 125pts in their warband.
 
 
 
