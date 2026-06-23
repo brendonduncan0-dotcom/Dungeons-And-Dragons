@@ -31,7 +31,7 @@ Bramble is an eight-month-old owlbear — small enough to fit under a table, old
 
 **Bramble's behaviours in Act 1:**
 - Steals something from Rindle's pack (Rindle may oppose with a contested Sleight of Hand — Bramble has +4, and he has already committed before anyone notices)
-- Follows Brok in exact lockstep when Brok moves across the room, convinced this is a game
+- Follows Draco in exact lockstep when Draco moves across the room, convinced this is a game
 - Knocks over Cordelia's chair by walking under it with insufficient spatial awareness; sits on her foot as an apology
 - Brings Durgin a boot when chalk dust irritates Durgin's eyes — this is apparently a comfort gesture; Durgin accepts it and sets it carefully to one side
 

@@ -23,14 +23,14 @@ The party's introduction to Durgin and Bramble. The meal is real, the hospitalit
 
 **Durgin:** Wants the party to enjoy the food, feel welcome, and not look too closely at the workroom. He deflects questions about the Academium letter if found — "old bureaucratic business, nothing interesting." He is genuinely glad they're here.
 
-**Bramble:** Wants food, attention, and Brok specifically, in that order.
+**Bramble:** Wants food, attention, and Draco specifically, in that order.
 
 ## Bramble Beats
 
 Run as many as fit the table's energy:
 
 - **The heist:** Bramble steals something from Rindle's pack. Rindle may oppose with a contested Sleight of Hand (Bramble +4). Bramble has already committed before anyone notices the attempt is in progress.
-- **The shadow:** Bramble follows Brok in exact lockstep when Brok crosses the room. If Brok stops, Bramble stops. If Brok turns around, Bramble sits down and looks at the ceiling.
+- **The shadow:** Bramble follows Draco in exact lockstep when Draco crosses the room. If Draco stops, Bramble stops. If Draco turns around, Bramble sits down and looks at the ceiling.
 - **The chair incident:** Bramble walks under Cordelia's chair with insufficient spatial awareness and tips it. He immediately sits on her foot. This is his apology. He means it.
 - **The boot:** When chalk dust irritates Durgin's eyes mid-conversation, Bramble disappears and returns with a boot from the bedroom. Durgin takes it gravely and sets it to one side. *"He does this. I don't know what it means either."*
 

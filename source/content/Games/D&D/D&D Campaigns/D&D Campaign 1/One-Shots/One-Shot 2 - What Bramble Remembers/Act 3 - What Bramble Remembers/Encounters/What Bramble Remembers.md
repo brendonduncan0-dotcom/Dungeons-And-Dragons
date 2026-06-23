@@ -39,13 +39,13 @@ He is warm, apologetic, and quietly wry about his situation. He is at peace with
 
 - *"The research notes were in the journal. I trust you read them. I hope Rindle explained the technical parts — I know I write in shorthand."*
 - *"I can feel him in here. It's — it's like remembering something at the same time you're being reminded of it. Does that make sense? It probably doesn't."*
-- *"Bramble remembers all of you. Specifically — Brok, he's very fixated on Brok, I don't know what you did but he thinks very highly of you."*
+- *"Bramble remembers all of you. Specifically — Draco, he's very fixated on Draco, I don't know what you did but he thinks very highly of you."*
 - *"I don't have a lot of time before — before it becomes more him than me. I'd like to say goodbye properly, if that's all right."*
 - *(If asked about the Academium):* *"They'll come, probably. They tracked the ritual signature. I expect they're already on their way."*
 
 ## Velthrane's Arrival
 
-[[Magistra Velthrane]] arrives with two Academium Sentinels approximately 10 minutes after the party first speaks with Durgin-Bramble — from the east tree line. She takes in the scene and addresses the party rather than the creature:
+[[Magistra Velthrane]] arrives with two [[Academium Sentinel|Academium Sentinels]] approximately 10 minutes after the party first speaks with Durgin-Bramble — from the east tree line. She takes in the scene and addresses the party rather than the creature:
 
 *"The creature is Academium property under the Research Seizure Act. I am prepared to offer formal documentation and a finder's compensation for its recovery. Please stand aside."*
 
@@ -60,22 +60,12 @@ He is warm, apologetic, and quietly wry about his situation. He is at peace with
 
 **Ashworth gambit:** If Cordelia invokes her family name and the historical donation, Velthrane's composure cracks visibly. She asks for clarification. On success (DC 10 Persuasion), she agrees to defer to guild adjudication rather than press her claim tonight. She and the sentinels withdraw — *"This isn't over"* — and the party has the glade to themselves.
 
-### Academium Sentinels (2)
+## Enemies
 
-| | |
-|---|---|
-| AC | 16 (chain mail and shield) |
-| HP | 26 (4d8 + 8) |
-| Speed | 30 ft. |
-| STR / DEX / CON | 15 / 12 / 14 |
-| INT / WIS / CHA | 10 / 11 / 10 |
-| CR | 1/2 |
-
-**Spear.** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft. *Hit:* 5 (1d6 + 2) piercing damage.
-
-**Shield Bash.** *Melee Weapon Attack:* +4 to hit, reach 5 ft. *Hit:* 4 (1d4 + 2) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be knocked prone.
-
-**Tactics:** Sentinels position between Velthrane and the party. They use Shield Bash to knock prone anyone moving toward her. They do not pursue fleeing party members and will disengage if Velthrane orders withdrawal.
+| Creature | CR | Count | Notes |
+|---|---|---|---|
+| [[Magistra Velthrane]] | 4 | 1 | Hangs back; Hold Person opener; retreats below 15 HP |
+| [[Academium Sentinel]] | 1/2 | 2 | Shield Bash to protect Velthrane; disengage on her order |
 
 ---
 
@@ -135,6 +125,6 @@ The contract is technically unclosed. Aldra pays the second half of the reward r
 > **At 3 players:** Remove one sentinel. Have Velthrane offer to negotiate after she takes any damage — she is not a martyr.
 
 > [!tip] DM Note
-> Whatever ending the players choose, end on Durgin's voice. If Mercy: his last words as the light fades are *"Thank you for the company."* If Reversal: during the ritual, he addresses each party member by name — something specific he noticed about them during dinner. If Defiance: he's gone into the trees before the party thinks to say anything more. That's fine. That's the ending that hurts the right way.
+> Whatever ending the players choose, end on Durgin's voice. If Mercy: his last words as the light fades are *"Thank you for the company."* If Reversal: during the ritual, he addresses each party member by name — something specific he noticed during dinner. If Defiance: he's gone into the trees before the party thinks to say anything more. That's fine. That's the ending that hurts the right way.
 >
 > After any ending: the glade is quiet. The chalk sigils are dark. The stars are still visible through the gap in the canopy. Give the table a moment before asking if they want to head back to Millhaven.

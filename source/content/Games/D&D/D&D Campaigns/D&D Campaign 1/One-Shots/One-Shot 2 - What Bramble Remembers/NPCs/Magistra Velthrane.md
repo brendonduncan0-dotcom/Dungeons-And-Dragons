@@ -23,10 +23,10 @@ A tall human woman in her fifties, silver-streaked dark hair pulled back severel
 Velthrane has been tracking Durgin's research for six weeks. She does not want the creature harmed — she wants it studied. In her professional assessment, Durgin has produced the first confirmed animus transference in forty years, and losing access to the subject would be a genuine loss to the Academium's understanding of soul-magic persistence. She is not wrong about the academic significance. She is wrong about everything else.
 
 ## Secret
-Velthrane was the one who denied Durgin's research waiver six weeks ago. She flagged his application as reckless and forwarded it for rejection herself. She has not mentioned this to anyone and has not fully processed what it means that she effectively removed the legitimate avenue before he was forced to use himself. If the party pushes her on this — *"you denied his waiver and then drove him to use himself as the subject"* — she will not be able to maintain her composure.
+Velthrane was the one who denied Durgin's research waiver six weeks ago. She flagged his application as reckless and forwarded it for rejection herself. She has not processed what it means that she effectively removed the legitimate avenue before he was forced to use himself. If the party confronts her — *"you denied his waiver and then drove him to use himself as the subject"* — she will not be able to maintain her composure.
 
 ## Cordelia Hook
-The Ashworth name stops Velthrane mid-sentence. The donation predates the current Academium charter and creates a historical patronage claim that pre-empts several of her procedural authorities. She has not encountered this legal situation before. She will ask for clarification — unusual for her — and may agree to defer to guild adjudication rather than press further.
+The Ashworth name stops Velthrane mid-sentence. The donation predates the current Academium charter and creates a historical patronage claim that pre-empts several of her procedural authorities. She has not encountered this legal situation before. She will ask for clarification and may agree to defer to guild adjudication rather than press further.
 
 ## Stat Block
 
@@ -55,9 +55,9 @@ senses: passive Perception 12
 languages: Common, Elvish, Draconic
 traits:
   - name: Soul Sight
-    desc: "As a bonus action, Velthrane can detect the presence and approximate location of active soul-magic within 60 ft., including animated undead, bound spirits, and animus transfer effects. This is how she tracked the ritual."
+    desc: "As a bonus action, Velthrane can detect the presence and approximate location of active soul-magic within 60 ft., including animated undead, bound spirits, and animus transfer effects."
   - name: Spellcasting
-    desc: "Velthrane is a 7th-level spellcaster (Intelligence, spell save DC 13, +5 to hit with spell attacks). Cantrips (at will): Toll the Dead, Mage Hand. 1st level (4 slots): Shield, Detect Magic, Ray of Sickness. 2nd level (3 slots): Hold Person, Ray of Enfeeblement, Misty Step. 3rd level (3 slots): Counterspell, Vampiric Touch, Animate Dead."
+    desc: "Velthrane is a 7th-level spellcaster (Intelligence, spell save DC 13, +5 to hit). Cantrips: Toll the Dead, Mage Hand. 1st level (4 slots): Shield, Detect Magic, Ray of Sickness. 2nd level (3 slots): Hold Person, Ray of Enfeeblement, Misty Step. 3rd level (3 slots): Counterspell, Vampiric Touch, Animate Dead."
 actions:
   - name: Quarterstaff
     desc: "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage."
@@ -72,4 +72,4 @@ reactions:
 
 ## Tactics
 
-Velthrane prefers not to fight. If the party forces combat, she immediately casts Hold Person on the most physically threatening character and retreats behind her sentinels. She uses Necrotic Lance against anyone who moves toward her and Counterspell to deny high-level party abilities. She will attempt to flee rather than fight to the death — she is not paid enough to die in a forest clearing over a research specimen, and she knows it. If reduced to 15 HP or fewer, she calls for withdrawal and leaves.
+Velthrane prefers not to fight. If the party forces combat she immediately casts Hold Person on the most physically threatening character and retreats behind the [[Academium Sentinel|sentinels]]. She uses Necrotic Lance against anyone who closes distance and Counterspell to deny high-level party abilities. She will disengage and flee rather than fight to the death — she is not paid enough to die in a forest clearing. If reduced to 15 HP or fewer, she calls for withdrawal.
