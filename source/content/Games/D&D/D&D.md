@@ -10,8 +10,8 @@ title: D&D (Dungeons & Dragons)
 ## About the Game
 
 **Publisher:** Wizards of the Coast  
-**Edition:** 5th Edition (5e)  
-**Scale:** Roleplaying — typically 3–6 players plus a Dungeon Master  
+**Edition:** 2024 Edition (5.5e)  
+**Scale:** Roleplaying — typically 3–4 players plus a Dungeon Master  
 **Session Length:** Usually 2–4 hours  
 **Core Mechanic:** Roll a d20, add relevant modifiers, and meet or beat a Difficulty Class (DC) or the target's Armour Class (AC)
 
@@ -39,7 +39,7 @@ Each character has six core ability scores — Strength, Dexterity, Constitution
 
 ## Core Rules
 
-*These are based on D&D 5th Edition (2024 revision)*
+*These are based on D&D 5.5 Edition (2024 revision)*
 
 #### Ability Checks
 When a character attempts something with a chance of failure, the DM calls for an ability check. Roll a d20 and add the relevant ability modifier (and proficiency bonus if applicable). Meet or beat the DC to succeed.

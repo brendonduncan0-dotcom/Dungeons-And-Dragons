@@ -9,6 +9,51 @@
   --statblock-text-color: #000;
 }
 
+/* ── Dark mode nuclear override ──────────────────────────────────
+   Quartz dark mode uses [saved-theme="dark"] or similar selectors
+   to restyle text, borders, and backgrounds. This wildcard rule
+   forces every element inside a statblock to keep its parchment
+   look regardless of the site theme.                              */
+.statblock *,
+div[data-callout="statblock"] *,
+pre:has(> code.language-statblock) * {
+  color: var(--statblock-text-color) !important;
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Re-apply the specific colours that the wildcard just flattened */
+.statblock strong,
+.statblock b,
+.statblock h1,
+.statblock h3,
+.statblock em strong,
+.statblock strong em,
+.statblock-name,
+.statblock-section-title,
+.statblock-property-name {
+  color: var(--statblock-primary-color) !important;
+}
+
+.statblock hr,
+.statblock-separator {
+  border-color: var(--statblock-bar-color) !important;
+}
+
+.statblock h3,
+.statblock-section-title {
+  border-bottom-color: var(--statblock-rule-color) !important;
+}
+
+.statblock h1,
+.statblock-name {
+  border-bottom-color: var(--statblock-primary-color) !important;
+}
+
+.statblock table th {
+  border-bottom-color: var(--statblock-text-color) !important;
+}
+
 /* Main Container - Target code blocks with statblock language */
 .statblock,
 pre:has(> code.language-statblock),
@@ -27,8 +72,6 @@ div[data-callout="statblock"] {
   border-radius: 0 !important;
   
   code {
-    background: transparent !important;
-    color: var(--statblock-text-color) !important;
     padding: 0 !important;
     font-family: inherit !important;
     font-size: inherit !important;
@@ -52,7 +95,6 @@ pre:has(> code.language-statblock) {
 .statblock h1,
 .statblock-name {
   font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', Georgia, serif !important;
-  color: var(--statblock-primary-color) !important;
   font-weight: 700 !important;
   font-size: 23px !important;
   line-height: 1.2 !important;
@@ -68,7 +110,6 @@ pre:has(> code.language-statblock) {
   font-style: italic !important;
   margin: 0.3em 0 !important;
   font-weight: normal !important;
-  color: var(--statblock-text-color) !important;
   border: none !important;
 }
 
@@ -110,7 +151,6 @@ pre:has(> code.language-statblock) {
 .statblock strong,
 .statblock b {
   font-weight: 700 !important;
-  color: var(--statblock-primary-color) !important;
 }
 
 /* Ability scores table */
@@ -127,7 +167,6 @@ pre:has(> code.language-statblock) {
     padding: 0.2em !important;
     font-size: 12px !important;
     text-align: center !important;
-    color: var(--statblock-text-color) !important;
   }
   
   th {
@@ -141,7 +180,6 @@ pre:has(> code.language-statblock) {
 .statblock h3,
 .statblock-section-title {
   font-family: 'Libre Baskerville', 'Lora', Georgia, serif !important;
-  color: var(--statblock-primary-color) !important;
   font-size: 18px !important;
   font-weight: 700 !important;
   border-bottom: 1px solid var(--statblock-rule-color) !important;
@@ -163,7 +201,6 @@ pre:has(> code.language-statblock) {
 .statblock strong em {
   font-weight: 700 !important;
   font-style: italic !important;
-  color: var(--statblock-primary-color) !important;
 }
 
 /* Lists within statblocks */
