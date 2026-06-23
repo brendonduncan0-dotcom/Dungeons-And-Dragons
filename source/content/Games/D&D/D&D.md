@@ -1,7 +1,6 @@
 ---
 title: D&D (Dungeons & Dragons)
 ---
-Dungeons & Dragons is the world's most popular tabletop roleplaying game, published by [Wizards of the Coast](https://www.dndbeyond.com). Players create characters and embark on adventures led by a Dungeon Master (DM) who narrates the world, controls enemies, and adjudicates the rules. The game blends storytelling, strategy, and improvisation — from dungeon crawls and dragon fights to political intrigue and mystery.
 
 > [!info] Our Games
 > This section tracks the campaigns from our group's D&D games. Log your sessions and keep track of the story as it unfolds!
