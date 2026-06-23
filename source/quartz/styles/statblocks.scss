@@ -127,6 +127,7 @@ pre:has(> code.language-statblock) {
     padding: 0.2em !important;
     font-size: 12px !important;
     text-align: center !important;
+    color: var(--statblock-text-color) !important;
   }
   
   th {
