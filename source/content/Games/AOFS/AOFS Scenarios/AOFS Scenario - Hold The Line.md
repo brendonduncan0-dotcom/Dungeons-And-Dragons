@@ -22,7 +22,7 @@ title: Scenario - Hold The Line
 > The game ends after 4 rounds, and the player that scored most VPs wins.
 
 >[!summary] Side Missions
-> At the end of the game players get 1 VP for each side-mission they completed: 
+> At the end of the game players get 2 VPs for each side-mission they completed: 
 > - Have one or more friendly units fully within 6” of the table centre. 
 > - Destroy five or more enemy models. 
 > - Destroy one enemy Hero and at least 25% of models in the enemy army.

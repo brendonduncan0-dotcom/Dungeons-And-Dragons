@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
+                "file": "Games/AOFS/AOFS Scenarios/AOFS Scenario - Hold The Line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOFS Campaign 1"
+              "title": "AOFS Scenario - Hold The Line"
             }
           }
         ]
@@ -229,6 +229,10 @@
   },
   "active": "42a62a3f22dba9a9",
   "lastOpenFiles": [
+    "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
+    "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
+    "Games/AOFS/AOFS Reference/AOFS Movement.md",
+    "Games/AOFS/AOFS Reference/AOFS Special Objectives.md",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Havoc Warriors V3.5.3.pdf",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 2 - What Bramble Remembers/One-Shot 2 - What Bramble Remembers.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/D&D Campaign 1.md",
@@ -252,10 +256,7 @@
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Encounters/The Empty Cottage.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Encounters/Failed Experiments.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/One-Shots/One-Shot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Locations/The Thornwood.md",
-    "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
     "Games/D&D/D&D.md",
-    "index.md",
-    "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Wood Elves V3.5.3.pdf",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Wood Elves V3.5.3.pdf.crdownload",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Sky-City Dwarves V3.5.3.pdf",
@@ -264,7 +265,6 @@
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS High Elves V3.5.3.pdf.crdownload",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Human Empire V3.5.3.pdf",
     "Games/AOFS/AOFS Reference/v3.5.3/AOFS Human Empire V3.5.3.pdf.crdownload",
-    "Games/AOFS/AOFS Reference/v3.5.3/AOFS Kingdom Of Angels V3.5.3.pdf",
     "Games/AOFS/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - No Mans Land.jpg",
     "Games/AOFS/AOFS Scenarios/AOFS Scenario Diagrams/AOFS Scenario - Hold The Line.jpg",
     "File Packs/File Pack - Dwarf Steampunk By Rescale Miniatures/Images/SteampunkDwarf_GunSword_Shoot_01_02.8365.jpg",
