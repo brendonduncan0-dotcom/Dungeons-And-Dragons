@@ -34,7 +34,7 @@ title: Campaign 1
 | AJ      | [AJ's Warband'](https://army-forge.onepagerules.com/share?id=qrIlDJ6Zcq_o&name=AJ_Campaign%201)          | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)               |                                                       | 21  | 1              | 1    |
 | Jarret  | [Jarrett's Warband](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves)   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 0   | 1              | 0    |
 | Simon   |                                                                                                          | [Wood Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/qtuyeoRfXKlNflK0?armyName=Wood+Elves)               |                                                       | 0   | 0              | 0    |
-| Austin  | To be confirmed                                                                                          | To be confirmed                                                                                                                        |                                                       | 0   | 0              | 0    |
+| Austin  | [Austin's Warband](https://army-forge.onepagerules.com/share?id=leeTc9Wk7Qkn&name=Austin_Campaign%201)   | [Havoc Warriors](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/PGxKcq4R571OtwqD?armyName=Havoc+Warriors)       |                                                       | 0   | 0              | 0    |
 
 ---
 
