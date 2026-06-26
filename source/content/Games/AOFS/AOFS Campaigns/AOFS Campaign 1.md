@@ -28,12 +28,12 @@ title: Campaign 1
 | Player  | Warband Link                                                                                             | Faction                                                                                                                                | File Pack                                             | VP  | Matches Played | Wins |
 | ------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --- | -------------- | ---- |
 | Brendon | [Brendon's Warband](https://army-forge.onepagerules.com/share?id=I58oAcWlvpAG&name=Brendon_Campaign%201) | [Goblins](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/q9BQlBp583ZuuOnQ?armyName=Goblins)                     |                                                       | 24  | 1              | 1    |
-| Mira    | [Mira's Warband](https://army-forge.onepagerules.com/share?id=e6RkKpnq_cNj&name=Mira_Campaign%201)       | [Kingdom of Angels](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/RgHxqAlAXnUuF3ty?armyName=Kingdom+of+Angels) |                                                       | 0   | 0              | 0    |
+| Mira    | [Mira's Warband](https://army-forge.onepagerules.com/share?id=e6RkKpnq_cNj&name=Mira_Campaign%201)       | [Kingdom of Angels](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/RgHxqAlAXnUuF3ty?armyName=Kingdom+of+Angels) |                                                       | 18  | 1              | 1    |
 | Chad    | [Chad's Warband](https://army-forge.onepagerules.com/share?id=ItqOkaeLb9mJ&name=Chad_Campaign%201)       | [Human Empire](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/jZ02AVPLx_S48Mnb?armyName=Human+Empire)           |                                                       | 1   | 1              | 0    |
 | Grae    | To be confirmed                                                                                          | To be confirmed                                                                                                                        |                                                       | 0   | 0              | 0    |
 | AJ      | [AJ's Warband'](https://army-forge.onepagerules.com/share?id=qrIlDJ6Zcq_o&name=AJ_Campaign%201)          | [High Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/bPAtRGFrpFfyAjLW?armyName=High+Elves)               |                                                       | 21  | 1              | 1    |
 | Jarret  | [Jarrett's Warband](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [Sky-City Dwarves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/AcDXPPXmWrgHChlS?armyName=Sky-City+Dwarves)   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 0   | 1              | 0    |
-| Simon   |                                                                                                          | [Wood Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/qtuyeoRfXKlNflK0?armyName=Wood+Elves)               |                                                       | 0   | 0              | 0    |
+| Simon   | [Simon's Warband](https://army-forge.onepagerules.com/share?id=WXjbJXpavsvy&name=Simon_Campaign%201)     | [Wood Elves](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/qtuyeoRfXKlNflK0?armyName=Wood+Elves)               |                                                       | 0   | 1              | 0    |
 | Austin  | [Austin's Warband](https://army-forge.onepagerules.com/share?id=leeTc9Wk7Qkn&name=Austin_Campaign%201)   | [Havoc Warriors](https://army-forge.onepagerules.com/army-info/age-of-fantasy-skirmish/PGxKcq4R571OtwqD?armyName=Havoc+Warriors)       |                                                       | 0   | 0              | 0    |
 
 ---
@@ -58,7 +58,7 @@ title: Campaign 1
 | --------- | ------- | --------- | ----------- | -------- | ----------- | ------- |
 | 01        | 01      | AJ        | 21          | Jarrett  | 0           | AJ      |
 | 01        | 02      | Brendon   | 24          | Chad     | 1           | Brendon |
-| 01        | 03      | Mira      |             | Simon    |             |         |
+| 01        | 03      | Mira      | 18          | Simon    | 0           | Mira    |
 
 ---
 
