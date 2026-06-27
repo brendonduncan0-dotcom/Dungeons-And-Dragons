@@ -1035,6 +1035,23 @@ footer ul {
     wrapper.appendChild(btn);
   }
 
+  // \u2500\u2500 Keep-alive state \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+  let keepAliveTimer = null;
+  let activeCastBtn = null;
+  const KEEP_ALIVE_MS = 3 * 60 * 1000; // re-send every 3 min (idle timeout is ~5 min)
+
+  function clearKeepAlive() {
+    if (keepAliveTimer) {
+      clearInterval(keepAliveTimer);
+      keepAliveTimer = null;
+    }
+    if (activeCastBtn) {
+      activeCastBtn.classList.remove('casting');
+      activeCastBtn.setAttribute('data-tooltip', 'Cast to TV');
+      activeCastBtn = null;
+    }
+  }
+
   function castImage(img, btn) {
     const context = cast.framework.CastContext.getInstance();
     const session = context.getCurrentSession();
@@ -1053,6 +1070,9 @@ footer ul {
     const session = cast.framework.CastContext.getInstance().getCurrentSession();
     if (!session) return;
 
+    // Stop any previous keep-alive
+    clearKeepAlive();
+
     // Resolve to an absolute URL (handles relative /images/... paths)
     const absoluteUrl = new URL(img.src, window.location.href).href;
 
@@ -1070,27 +1090,51 @@ footer ul {
     };
     const contentType = mimeTypes[ext] ?? 'image/jpeg';
 
-    // Build a media item \u2014 use the page title + alt text as metadata
-    const mediaInfo = new chrome.cast.media.MediaInfo(absoluteUrl, contentType);
-    const meta = new chrome.cast.media.GenericMediaMetadata();
-    meta.title = img.alt || document.title || 'Image';
-    mediaInfo.metadata = meta;
+    function loadImage() {
+      const s = cast.framework.CastContext.getInstance().getCurrentSession();
+      if (!s) { clearKeepAlive(); return; }
 
-    const request = new chrome.cast.media.LoadRequest(mediaInfo);
+      const mediaInfo = new chrome.cast.media.MediaInfo(absoluteUrl, contentType);
+      const meta = new chrome.cast.media.GenericMediaMetadata();
+      meta.title = img.alt || document.title || 'Image';
+      mediaInfo.metadata = meta;
+
+      const request = new chrome.cast.media.LoadRequest(mediaInfo);
+      return s.loadMedia(request);
+    }
 
     btn.classList.add('casting');
     btn.setAttribute('data-tooltip', 'Casting\u2026');
+    activeCastBtn = btn;
 
-    session
-      .loadMedia(request)
+    loadImage()
       .then(() => {
         btn.setAttribute('data-tooltip', 'Casting \u2713');
+
+        // Re-send the image periodically to prevent idle timeout
+        keepAliveTimer = setInterval(() => {
+          loadImage()?.catch(() => clearKeepAlive());
+        }, KEEP_ALIVE_MS);
       })
       .catch((err) => {
         console.error('Cast load error:', err);
-        btn.classList.remove('casting');
+        clearKeepAlive();
         btn.setAttribute('data-tooltip', 'Cast failed');
       });
+
+    // Clean up if the session ends externally (user stops from TV remote, etc.)
+    cast.framework.CastContext.getInstance().addEventListener(
+      cast.framework.CastContextEventType.SESSION_STATE_CHANGED,
+      function onStateChange(event) {
+        if (event.sessionState === cast.framework.SessionState.SESSION_ENDED) {
+          clearKeepAlive();
+          cast.framework.CastContext.getInstance().removeEventListener(
+            cast.framework.CastContextEventType.SESSION_STATE_CHANGED,
+            onStateChange
+          );
+        }
+      }
+    );
   }
 })();
 `;var CastImages_default=__name(()=>CastImages,"default");var sharedPageComponents={head:Head_default(),header:[],afterBody:[CastImages_default()],footer:Footer_default({links:{GitHub:"https://github.com/jackyzha0/quartz","Discord Community":"https://discord.gg/cRFFHYye7t"}})},defaultContentPageLayout={beforeBody:[Breadcrumbs_default(),ArticleTitle_default(),ContentMeta_default(),TagList_default()],left:[PageTitle_default(),MobileOnly_default(Spacer_default()),Search_default(),Darkmode_default(),DesktopOnly_default(Explorer_default())],right:[Graph_default(),DesktopOnly_default(TableOfContents_default()),Backlinks_default()]},defaultListPageLayout={beforeBody:[Breadcrumbs_default(),ArticleTitle_default(),ContentMeta_default()],left:[PageTitle_default(),MobileOnly_default(Spacer_default()),Search_default(),Darkmode_default(),DesktopOnly_default(Explorer_default())],right:[]};import chalk4 from"chalk";import path6 from"path";import fs2 from"fs";var write=__name(async({ctx,slug,ext,content})=>{let pathToPage=joinSegments(ctx.argv.output,slug+ext),dir=path6.dirname(pathToPage);return await fs2.promises.mkdir(dir,{recursive:!0}),await fs2.promises.writeFile(pathToPage,content),pathToPage},"write");var DepGraph=class{static{__name(this,"DepGraph")}_graph=new Map;constructor(){this._graph=new Map}export(){return{nodes:this.nodes,edges:this.edges}}toString(){return JSON.stringify(this.export(),null,2)}get nodes(){return Array.from(this._graph.keys())}get edges(){let edges=[];return this.forEachEdge(edge=>edges.push(edge)),edges}hasNode(node){return this._graph.has(node)}addNode(node){this._graph.has(node)||this._graph.set(node,{incoming:new Set,outgoing:new Set})}removeNode(node){if(this._graph.has(node)){for(let target of this._graph.get(node).outgoing)this.removeEdge(node,target);for(let source of this._graph.get(node).incoming)this.removeEdge(source,node);this._graph.delete(node)}}forEachNode(callback){for(let node of this._graph.keys())callback(node)}hasEdge(from,to){return!!this._graph.get(from)?.outgoing.has(to)}addEdge(from,to){this.addNode(from),this.addNode(to),this._graph.get(from).outgoing.add(to),this._graph.get(to).incoming.add(from)}removeEdge(from,to){this._graph.has(from)&&this._graph.has(to)&&(this._graph.get(from).outgoing.delete(to),this._graph.get(to).incoming.delete(from))}outDegree(node){return this.hasNode(node)?this._graph.get(node).outgoing.size:-1}inDegree(node){return this.hasNode(node)?this._graph.get(node).incoming.size:-1}forEachOutNeighbor(node,callback){this._graph.get(node)?.outgoing.forEach(callback)}forEachInNeighbor(node,callback){this._graph.get(node)?.incoming.forEach(callback)}forEachEdge(callback){for(let[source,{outgoing}]of this._graph.entries())for(let target of outgoing)callback([source,target])}mergeGraph(other){other.forEachEdge(([source,target])=>{this.addNode(source),this.addNode(target),this.addEdge(source,target)})}updateIncomingEdgesForNode(other,node){this.addNode(node),other.forEachInNeighbor(node,neighbor=>{this.addEdge(neighbor,node)}),this.forEachEdge(([source,target])=>{target===node&&!other.hasEdge(source,target)&&this.removeEdge(source,target)})}removeOrphanNodes(){let orphanNodes=new Set;return this.forEachNode(node=>{this.inDegree(node)===0&&this.outDegree(node)===0&&orphanNodes.add(node)}),orphanNodes.forEach(node=>{this.removeNode(node)}),orphanNodes}getLeafNodes(node){let stack=[node],visited=new Set,leafNodes=new Set;for(;stack.length>0;){let node2=stack.pop();visited.has(node2)||(visited.add(node2),this.outDegree(node2)===0&&leafNodes.add(node2),this.forEachOutNeighbor(node2,neighbor=>{visited.has(neighbor)||stack.push(neighbor)}))}return leafNodes}getLeafNodeAncestors(node){let leafNodes=this.getLeafNodes(node),visited=new Set,upstreamNodes=new Set;return leafNodes.forEach(leafNode=>{let stack=[leafNode];for(;stack.length>0;){let node2=stack.pop();visited.has(node2)||(visited.add(node2),this.outDegree(node2)!==0&&upstreamNodes.add(node2),this.forEachInNeighbor(node2,parentNode=>{visited.has(parentNode)||stack.push(parentNode)}))}}),upstreamNodes}};var parseDependencies=__name((argv,hast,file)=>{let dependencies=[];return visit7(hast,"element",elem=>{let ref=null;if(["script","img","audio","video","source","iframe"].includes(elem.tagName)&&elem?.properties?.src?ref=elem.properties.src.toString():["a","link"].includes(elem.tagName)&&elem?.properties?.href&&(ref=elem.properties.href.toString()),ref===null||!isRelativeURL(ref))return;let fp=path7.join(file.data.filePath,path7.relative(argv.directory,ref)).replace(/\\/g,"/");fp.split("/").pop()?.includes(".")||(fp+=".md"),dependencies.push(fp)}),dependencies},"parseDependencies"),ContentPage=__name(userOpts=>{let opts={...sharedPageComponents,...defaultContentPageLayout,pageBody:Content_default(),...userOpts},{head:Head,header,beforeBody,pageBody,afterBody,left,right,footer:Footer}=opts,Header2=Header_default(),Body2=Body_default();return{name:"ContentPage",getQuartzComponents(){return[Head,Header2,Body2,...header,...beforeBody,pageBody,...afterBody,...left,...right,Footer]},async getDependencyGraph(ctx,content,_resources){let graph=new DepGraph;for(let[tree,file]of content){let sourcePath=file.data.filePath,slug=file.data.slug;graph.addEdge(sourcePath,joinSegments(ctx.argv.output,slug+".html")),parseDependencies(ctx.argv,tree,file).forEach(dep=>{graph.addEdge(dep,sourcePath)})}return graph},async emit(ctx,content,resources){let cfg=ctx.cfg.configuration,fps=[],allFiles=content.map(c=>c[1].data),containsIndex=!1;for(let[tree,file]of content){let slug=file.data.slug;slug==="index"&&(containsIndex=!0);let externalResources=pageResources(pathToRoot(slug),resources),componentData={ctx,fileData:file.data,externalResources,cfg,children:[],tree,allFiles},content2=renderPage(cfg,slug,componentData,opts,externalResources),fp=await write({ctx,content:content2,slug,ext:".html"});fps.push(fp)}return!containsIndex&&!ctx.argv.fastRebuild&&console.log(chalk4.yellow(`

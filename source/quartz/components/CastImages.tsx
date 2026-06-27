@@ -140,6 +140,23 @@ CastImages.afterDOMLoaded = `
     wrapper.appendChild(btn);
   }
 
+  // ── Keep-alive state ────────────────────────────────────────────
+  let keepAliveTimer = null;
+  let activeCastBtn = null;
+  const KEEP_ALIVE_MS = 3 * 60 * 1000; // re-send every 3 min (idle timeout is ~5 min)
+
+  function clearKeepAlive() {
+    if (keepAliveTimer) {
+      clearInterval(keepAliveTimer);
+      keepAliveTimer = null;
+    }
+    if (activeCastBtn) {
+      activeCastBtn.classList.remove('casting');
+      activeCastBtn.setAttribute('data-tooltip', 'Cast to TV');
+      activeCastBtn = null;
+    }
+  }
+
   function castImage(img, btn) {
     const context = cast.framework.CastContext.getInstance();
     const session = context.getCurrentSession();
@@ -158,6 +175,9 @@ CastImages.afterDOMLoaded = `
     const session = cast.framework.CastContext.getInstance().getCurrentSession();
     if (!session) return;
 
+    // Stop any previous keep-alive
+    clearKeepAlive();
+
     // Resolve to an absolute URL (handles relative /images/... paths)
     const absoluteUrl = new URL(img.src, window.location.href).href;
 
@@ -175,27 +195,51 @@ CastImages.afterDOMLoaded = `
     };
     const contentType = mimeTypes[ext] ?? 'image/jpeg';
 
-    // Build a media item — use the page title + alt text as metadata
-    const mediaInfo = new chrome.cast.media.MediaInfo(absoluteUrl, contentType);
-    const meta = new chrome.cast.media.GenericMediaMetadata();
-    meta.title = img.alt || document.title || 'Image';
-    mediaInfo.metadata = meta;
+    function loadImage() {
+      const s = cast.framework.CastContext.getInstance().getCurrentSession();
+      if (!s) { clearKeepAlive(); return; }
 
-    const request = new chrome.cast.media.LoadRequest(mediaInfo);
+      const mediaInfo = new chrome.cast.media.MediaInfo(absoluteUrl, contentType);
+      const meta = new chrome.cast.media.GenericMediaMetadata();
+      meta.title = img.alt || document.title || 'Image';
+      mediaInfo.metadata = meta;
+
+      const request = new chrome.cast.media.LoadRequest(mediaInfo);
+      return s.loadMedia(request);
+    }
 
     btn.classList.add('casting');
     btn.setAttribute('data-tooltip', 'Casting…');
+    activeCastBtn = btn;
 
-    session
-      .loadMedia(request)
+    loadImage()
       .then(() => {
         btn.setAttribute('data-tooltip', 'Casting ✓');
+
+        // Re-send the image periodically to prevent idle timeout
+        keepAliveTimer = setInterval(() => {
+          loadImage()?.catch(() => clearKeepAlive());
+        }, KEEP_ALIVE_MS);
       })
       .catch((err) => {
         console.error('Cast load error:', err);
-        btn.classList.remove('casting');
+        clearKeepAlive();
         btn.setAttribute('data-tooltip', 'Cast failed');
       });
+
+    // Clean up if the session ends externally (user stops from TV remote, etc.)
+    cast.framework.CastContext.getInstance().addEventListener(
+      cast.framework.CastContextEventType.SESSION_STATE_CHANGED,
+      function onStateChange(event) {
+        if (event.sessionState === cast.framework.SessionState.SESSION_ENDED) {
+          clearKeepAlive();
+          cast.framework.CastContext.getInstance().removeEventListener(
+            cast.framework.CastContextEventType.SESSION_STATE_CHANGED,
+            onStateChange
+          );
+        }
+      }
+    );
   }
 })();
 `
