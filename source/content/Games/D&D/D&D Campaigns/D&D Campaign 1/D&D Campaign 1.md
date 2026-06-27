@@ -104,5 +104,5 @@ The campaign uses a rotating Dungeon Master arrangement. All 5 players have a ch
 
 One-shots are listed in play order. Read this list before generating a new one-shot to avoid repeating locations, villains, or major plot beats.
 
-- [[One-Shot 1 - One Giant Leap for Ratkin]] — A moonrat conspiracy to knock down the moon (believed to be cheese) climaxes during a lunar eclipse. City merchant job, warehouse theft, underground warren, rooftop climax.
-- [[One-Shot 2 - What Bramble Remembers]] — A dwarf wizard and his baby owlbear familiar. Necromantic soul-transfer. An undead owlbear that speaks in a dead man's voice. Three endings, none easy.
+- [[Oneshot 1 - One Giant Leap for Ratkin]] — A moonrat conspiracy to knock down the moon (believed to be cheese) climaxes during a lunar eclipse. City merchant job, warehouse theft, underground warren, rooftop climax.
+- [[Oneshot 2 - What Bramble Remembers]] — A dwarf wizard and his baby owlbear familiar. Necromantic soul-transfer. An undead owlbear that speaks in a dead man's voice. Three endings, none easy.
