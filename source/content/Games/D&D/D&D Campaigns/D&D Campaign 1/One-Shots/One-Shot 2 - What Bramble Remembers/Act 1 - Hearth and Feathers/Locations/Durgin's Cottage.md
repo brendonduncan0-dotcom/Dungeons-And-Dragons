@@ -24,9 +24,26 @@ act: 1
 
 ## Battle Map
 
-Not a combat location. No map required for Act 1.
+No combat encounter planned. Map used for exploration and social scenes only.
 
-**Act 3 note:** The cottage becomes a crime scene in Act 3. Durgin's body is seated in the ritual circle in the workroom. The far wall has a 10 ft. × 10 ft. hole torn outward from the inside. The chalk circle is burned black at its centre. Players arriving here before following the tracks into the Thornwood will find this.
+**Shape:** Irregular rectangle (three connected rooms — workroom to the North, living area centre, kitchen to the East)
+**Dimensions:** 30 ft. × 20 ft. (6 × 4 squares)
+**Materials:** Timber and plaster walls, flagstone floor, wooden furniture and shelves throughout
+**Primary Entrance:** South (front door, unlocked)
+
+**Cover & Terrain:**
+- Cluttered shelves and furniture — throughout all rooms — Half cover — waist-high wooden furniture and shelving stacked with books, jars, and equipment; dense enough to duck behind
+- Workroom chalk circle — centre of North room — Clear zone — bare flagstone scraped clean of clutter within the chalk ring; open floor
+- Kitchen hearth — North wall of East room — Difficult terrain — raised stone hearth surround with active fire; hot stone surfaces on approach
+
+**Interactive Objects:**
+- Chalk ritual circle — centre of workroom floor — notation around the ring; DC 16 Arcana to identify as a two-stage soul-transfer diagram
+- Slate board — East wall of workroom — dense notation matching the chalk circle; studied together with the circle
+- Half-burned letter — workroom study shelf, under a stack of books — DC 14 Perception or Investigation to find; Arcane Academium seal visible on remaining fragment
+- Kitchen hearth — North wall of kitchen — active fire with pots on the hob; hanging herbs above
+
+**Variants:**
+- **Crime Scene:** Ritual circle burned black at its centre, scorched outward in rings. Far wall of the workroom torn outward leaving a ragged 10 ft. × 10 ft. hole, stone and timber scattered outside. Kitchen hearth cold with ash. Shelves overturned and jars shattered on the floor. Act 3.
 
 ## Encounters Here
 

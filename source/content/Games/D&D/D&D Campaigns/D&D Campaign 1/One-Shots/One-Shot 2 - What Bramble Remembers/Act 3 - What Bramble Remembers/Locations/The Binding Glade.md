@@ -27,15 +27,20 @@ act: 3
 
 **Shape:** Circular
 **Dimensions:** 60 ft. diameter (12 × 12 squares)
+**Materials:** Ancient bare earth and moss, scorched and heat-fractured ground at the centre, old-growth tree trunks and dense canopy forming a continuous wall at the perimeter
+**Primary Entrance:** South (path emerging from The Thornwood)
 
 **Cover & Terrain:**
-- Tree line — runs around the full perimeter — Full cover beyond; half cover at the edge for Large or smaller creatures
-- Scorched spiral — centre 15 ft. — Difficult terrain (cracked, raised edges); lightly obscured at ground level from residual smoke-haze
-- Iron torch stakes — North, South, East, and West, each 25 ft. from centre — No cover, but can be used as improvised clubs (+4 to hit, 1d4+2 bludgeoning) or driven as anchors (useful in the Mercy release ritual)
+- Tree line — full perimeter — Full cover beyond, half cover at the edge — ancient trunks and dense interlocking canopy forming a wall of shadow; stepping into the tree line provides immediate concealment
+- Scorched spiral — centre, 15 ft. across — Difficult terrain — cracked and raised black earth in a spiral pattern, heat-fractured surface with uneven raised edges; lightly obscured at ground level from residual smoke-haze
+- Iron torch stakes — North, South, East, and West, each 25 ft. from centre — No cover — frost-rimed iron stakes burned to cold stubs, fixed in the ground; DC 12 Athletics to pull free
 
 **Interactive Objects:**
-- Ritual chalk sigils — floor, centre to perimeter — Spending one action to study them grants advantage on Arcana checks to understand or attempt to reverse the binding
-- Iron torch stakes — North, South, East, West — Can be pulled from the ground (DC 12 Athletics) and used as improvised weapons or ritual anchors
+- Ritual chalk sigils — floor, centre to perimeter — spending one action to study them grants advantage on Arcana checks to understand or attempt to reverse the binding
+- Iron torch stakes — North, South, East, West — can be pulled from the ground (DC 12 Athletics) and used as improvised clubs (+4 to hit, 1d4+2 bludgeoning) or driven as ritual anchors for the Mercy release
+
+**Variants:**
+- None.
 
 ## Encounters Here
 

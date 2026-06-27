@@ -27,11 +27,21 @@ act: 2
 
 **Shape:** Irregular woodland (traversal zone)
 **Dimensions:** Variable — use the full play area; the Thornwood is a pressure ramp between investigation and confrontation, not a fixed combat space
+**Materials:** Ancient bare earth and leaf litter floor, old-growth tree trunks three feet wide, dense thorn undergrowth at the South and East edges
+**Primary Entrance:** South (from Durgin's Cottage torn wall)
 
 **Cover & Terrain:**
-- Dense undergrowth — South and East edges — Difficult terrain for first 20 ft. from the cottage side
-- Old-growth trunks — scattered throughout — Half cover; Large or smaller creatures can break line of sight by moving to the opposite side
-- Root systems — throughout — Difficult terrain in clusters; DC 10 Acrobatics to move at full speed across roots in dim light
+- Dense undergrowth — South and East edges, first 20 ft. from the cottage side — Difficult terrain — chest-high thorn bushes and bracken, visually impenetrable from outside
+- Old-growth trunks — scattered throughout — Half cover — ancient trunks three feet wide, wide enough to stand fully behind
+- Root systems — throughout, in clusters — Difficult terrain — gnarled surface roots rising a foot above the ground in dense interlocking mats; DC 10 Acrobatics to move at full speed in dim light
+
+**Interactive Objects:**
+- Bark-stripped trees — hollow, mid-map North — parallel claw grooves stripped into bark at six feet height; DC 14 Investigation to read as methodical rather than random
+- Frost-rimed ground patch — cold spot, mid-map — unnatural cold with no wind to explain it; DC 15 Arcana to identify as residual necrotic energy
+- Faint blue-grey light — visible to the North from the hollow — the Binding Glade, seen through the trees; draws the eye and invites a decision
+
+**Variants:**
+- None.
 
 ## Encounters Here
 

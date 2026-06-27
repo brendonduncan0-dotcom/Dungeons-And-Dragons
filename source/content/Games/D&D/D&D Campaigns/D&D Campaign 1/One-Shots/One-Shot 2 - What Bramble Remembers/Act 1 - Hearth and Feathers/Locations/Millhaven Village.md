@@ -24,7 +24,25 @@ act: 1
 
 ## Battle Map
 
-Not a combat location. No map required.
+No combat encounter planned. Map used for exploration and social scenes only.
+
+**Shape:** Open rectangle (village common with surrounding buildings, farmland, and treeline)
+**Dimensions:** 100 ft. × 80 ft. (20 × 16 squares)
+**Materials:** Packed dirt and grass common, timber and thatch single-storey buildings, turned-soil farmland at edges
+**Primary Entrance:** South (road into the village from outside)
+
+**Cover & Terrain:**
+- Village buildings — perimeter, South, West, and East sides — Full cover — solid timber and thatch single-storey walls; no windows face the common on the ground floor
+- Village well — centre of common — Half cover — waist-high circular stone well surround
+- Farmland borders — beyond the buildings to South, West, and East — Difficult terrain — ploughed turned soil with uneven furrows
+- Treeline — North-East edge — Full cover — dense old-growth treeline; Durgin's cottage just visible through the undergrowth at its edge
+
+**Interactive Objects:**
+- Village well — centre of common — rope and bucket accessible; circular stone surround provides waist-high cover
+- Aldra's house — East side of common — guild contract notice pinned to the door; sign reading KNOCK LOUDLY
+
+**Variants:**
+- None.
 
 ## Encounters Here
 
