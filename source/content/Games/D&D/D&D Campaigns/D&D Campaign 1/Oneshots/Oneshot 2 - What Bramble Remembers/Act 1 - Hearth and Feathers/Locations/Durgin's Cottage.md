@@ -26,6 +26,10 @@ act: 1
 - **DC 14 — Perception or Investigation (study area, during dinner):** A half-burned letter wedged under a stack of books on the study shelf. The Arcane Academium seal is visible on the remaining fragment, addressed to "D. Stonehew," dated six weeks ago. The readable portion includes: *"...failure to demonstrate viable animus transference by the 30th will result in immediate revocation of all research licenses and seizure of materials..."* Rindle identifies the Academium seal automatically — no check required.
 - **DC 16 — Arcana (ritual circle):** The chalk circle is not a containment diagram. The notation is too complex — it reads as a two-stage transfer: source anchoring, then vessel release. A successful check identifies it as soul-magic, which the Academium heavily restricts.
 
+> [!tip] DM Note
+> The DC 14 letter is the adventure's critical hidden discovery. Don't volunteer it — let players explore. If no one searches the study area by the end of dinner, have Bramble knock something off a shelf in there and draw attention to it. The DC 16 ritual circle check is a bonus for perceptive players; don't redirect attention to it, and don't confirm or deny what it means if asked — Durgin deflects ("old notation, nothing current").
+
+%%
 ## Image Generator Details
 
 **Interior:** One large rectangular room with flagstone floors and timber and plaster walls. Chalk ritual circle scraped bare on the floor at the north end, wooden shelves of glass jars covering the north and east walls, and a slate board on the east wall at the north end. A large oversized armchair at the centre of the room. A stone hearth on the south wall with pots on the hob and dried herbs hanging above.
@@ -63,6 +67,4 @@ One large room: ritual circle charred black at its centre with heat-darkened rin
 
 - [[Millhaven Village]]
 - [[The Thornwood]]
-
-> [!tip] DM Note
-> The DC 14 letter is the adventure's critical hidden discovery. Don't volunteer it — let players explore. If no one searches the study area by the end of dinner, have Bramble knock something off a shelf in there and draw attention to it. The DC 16 ritual circle check is a bonus for perceptive players; don't redirect attention to it, and don't confirm or deny what it means if asked — Durgin deflects ("old notation, nothing current").
+%%

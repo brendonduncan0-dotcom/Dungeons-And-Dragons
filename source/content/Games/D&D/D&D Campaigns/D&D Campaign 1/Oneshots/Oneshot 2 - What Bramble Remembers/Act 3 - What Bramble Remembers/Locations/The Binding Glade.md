@@ -27,6 +27,10 @@ act: 3
 - **DC 15 — Arcana:** Two distinct soul-signatures linger in the clearing, partially overlapping. Still present, still active — but not fully integrated. The boundary between them is blurring.
 - **DC 10 — Perception (after the reveal):** The undead owlbear's breath does not fog in the cold air. Its eyes do not blink at normal intervals. Its body radiates no warmth.
 
+> [!tip] DM Note
+> The glade should feel like a destination, not an arena. When the party first arrives, describe the emptiness before the sound. Give them a moment with the ritual circle — Rindle might crouch to read the sigils, someone might pick up a burned-out torch. The gap in the canopy and the stars above are important: this should feel like the world is watching. The reveal — Durgin-Bramble stepping from the north tree line — should feel like it has been coming since Act 1. Do not rush it.
+
+%%
 ## Image Generator Details
 
 **Exterior:** Near-perfect circular clearing, ancient bare earth and moss floor, surrounded by a continuous wall of old-growth tree trunks and dense interlocking canopy at the full perimeter; open gap in the canopy directly above the centre revealing a night sky with stars.
@@ -56,6 +60,4 @@ Ancient bare earth and moss floor; large spiral scorched burned black at the cor
 ## Connected Locations
 
 - [[The Thornwood]]
-
-> [!tip] DM Note
-> The glade should feel like a destination, not an arena. When the party first arrives, describe the emptiness before the sound. Give them a moment with the ritual circle — Rindle might crouch to read the sigils, someone might pick up a burned-out torch. The gap in the canopy and the stars above are important: this should feel like the world is watching. The reveal — Durgin-Bramble stepping from the north tree line — should feel like it has been coming since Act 1. Do not rush it.
+%%

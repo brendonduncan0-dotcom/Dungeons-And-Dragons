@@ -27,6 +27,10 @@ act: 2
 - **DC 14 — Investigation (stripped bark):** The claw marks follow a repeated pattern, not random damage. Something was testing its reach and strength. Methodically.
 - **DC 15 — Arcana (cold spot):** Residual necrotic energy, recent. Not dangerous at this concentration, but significant — whatever happened nearby involved soul-magic of considerable complexity, completed within the past twelve hours.
 
+> [!tip] DM Note
+> The Thornwood is a pressure ramp — it should feel like walking toward something the party isn't sure they want to find. Describe the cold spot and the stripped bark as separate discoveries at separate moments. The blue-grey light visible from the hollow is the Binding Glade. Let players see it and choose to move toward it. That choice is important.
+
+%%
 ## Image Generator Details
 
 **Exterior:** Dense old-growth woodland, ancient bare earth and leaf litter floor, massive old-growth tree trunks three feet wide scattered throughout, chest-high thorn bushes and bracken dense at the south and east edges thinning to bare canopy-shaded earth toward the north.
@@ -59,6 +63,4 @@ Dense thorn bushes and bracken thick at the south and east edges thinning to bar
 
 - [[Durgin's Cottage]]
 - [[The Binding Glade]]
-
-> [!tip] DM Note
-> The Thornwood is a pressure ramp — it should feel like walking toward something the party isn't sure they want to find. Describe the cold spot and the stripped bark as separate discoveries at separate moments. The blue-grey light visible from the hollow is the Binding Glade. Let players see it and choose to move toward it. That choice is important.
+%%

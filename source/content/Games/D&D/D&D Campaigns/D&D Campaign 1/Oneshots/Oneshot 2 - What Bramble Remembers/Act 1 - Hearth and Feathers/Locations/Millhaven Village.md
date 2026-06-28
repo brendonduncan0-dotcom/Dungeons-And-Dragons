@@ -26,6 +26,10 @@ act: 1
 - **DC 11 — Arcana:** The magical disturbances follow a rough gradient — weakest near the village centre, strongest toward the tree line to the north-east, where a cottage is just visible through the undergrowth.
 - **DC 13 — Nature:** The levitating goat is not distressed and is in no danger. Whatever is affecting it is structured, probably not catastrophic, and almost certainly not intentional.
 
+> [!tip] DM Note
+> Keep this section light and funny. The levitating goat is the party's first impression — bewildering but not threatening. Players who immediately try to solve the goat problem (Arcana, Athletics, Animal Handling) should find it gently resistant to their efforts; it descends on its own about an hour later regardless. Aldra will explain it has been doing this on and off for three weeks.
+
+%%
 ## Image Generator Details
 
 **Exterior:** Open village common with packed dirt and grass, timber-and-thatch single-storey buildings along the south, west, and east perimeter, turned-soil farmland with uneven furrows beyond the buildings, dense old-growth treeline along the north-east edge.
@@ -56,6 +60,4 @@ Open packed-dirt and grass common, stone well at the centre, timber-and-thatch b
 ## Connected Locations
 
 - [[Durgin's Cottage]]
-
-> [!tip] DM Note
-> Keep this section light and funny. The levitating goat is the party's first impression — bewildering but not threatening. Players who immediately try to solve the goat problem (Arcana, Athletics, Animal Handling) should find it gently resistant to their efforts; it descends on its own about an hour later regardless. Aldra will explain it has been doing this on and off for three weeks.
+%%
