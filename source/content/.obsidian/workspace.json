@@ -11,12 +11,14 @@
             "id": "42a62a3f22dba9a9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage-2.png"
+                "file": "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Locations/Millhaven Village.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Durgins Cottage-2"
+              "icon": "lucide-file",
+              "title": "Millhaven Village"
             }
           }
         ]
@@ -227,17 +229,21 @@
   },
   "active": "42a62a3f22dba9a9",
   "lastOpenFiles": [
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Locations/Durgin's Cottage.md",
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Act 1 - Hearth and Feathers.md",
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Locations/The Thornwood.md",
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Locations/Millhaven Village.md",
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Act 2 - The Weight of the Work.md",
+    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage-1.png",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage-2.png",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Millhaven Village.md",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/The Binding Glade-1.png",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/The Thornwood-1.png",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/The Thornwood.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 3 - What Bramble Remembers/Locations/The Binding Glade.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 3 - What Bramble Remembers/Act 3 - What Bramble Remembers.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/The Binding Glade.md",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Locations/The Thornwood.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Encounters/Failed Experiments.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Encounters/The Empty Cottage.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Millhaven Village-1.png",
@@ -248,8 +254,6 @@
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/Durgins Cottage-1-c3.png",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Oneshot 2 - What Bramble Remembers.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Encounters/Dinner at Durgins.md",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Locations/Durgin's Cottage.md",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 2 - The Weight of the Work/Act 2 - The Weight of the Work.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 3 - What Bramble Remembers/Encounters/What Bramble Remembers.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 1 - One Giant Leap for Ratkin/Oneshot 1 - One Giant Leap for Ratkin.md",
     "Games/D&D/sed4ACYoa",
@@ -262,7 +266,6 @@
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/NPCs/sedTXDvbI",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/NPCs/sedqjFpIQ",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Battle Maps/sedc0T9OU",
-    "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Locations/Millhaven Village.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 2 - What Bramble Remembers/Act 1 - Hearth and Feathers/Encounters/The Disturbances.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/NPCs/Grand Squeaker Nibblefang XLII.md",
     "Games/D&D/D&D Campaigns/D&D Campaign 1/Oneshots/Oneshot 1 - One Giant Leap for Ratkin/Act 3 - Rooftop Reckoning/Encounters/Rooftop Reckoning.md",

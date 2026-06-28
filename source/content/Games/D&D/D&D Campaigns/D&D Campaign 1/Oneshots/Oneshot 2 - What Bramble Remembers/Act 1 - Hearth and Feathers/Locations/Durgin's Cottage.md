@@ -6,6 +6,13 @@ act: 1
 ---
 
 # Durgin's Cottage
+## Battle Maps
+
+| Location | Battle Map |
+|---|---|
+| Durgin's Cottage — Cozy | ![[Durgins Cottage-1.png]] |
+| Durgin's Cottage — Crime Scene | ![[Durgins Cottage-2.png]] |
+
 
 > [!info] Read Aloud
 > The cottage sits slightly apart from the village, backed against the tree line. It is comfortably cluttered from the outside in: window boxes overflowing with herbs, a cracked cauldron repurposed as a planter, three stacks of firewood that have toppled into each other and not been restacked. Warm light shows through the windows. Something inside makes a sound like a large, contented owl.

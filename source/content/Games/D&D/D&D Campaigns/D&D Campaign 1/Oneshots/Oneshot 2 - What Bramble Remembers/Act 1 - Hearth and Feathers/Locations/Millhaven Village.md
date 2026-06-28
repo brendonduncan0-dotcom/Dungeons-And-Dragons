@@ -6,6 +6,12 @@ act: 1
 ---
 
 # Millhaven Village
+## Battle Maps
+
+| Location | Battle Map |
+|---|---|
+| Millhaven Village | ![[Millhaven Village-1.png]] |
+
 
 > [!info] Read Aloud
 > The village is small enough that you can see from one end to the other without squinting. A dozen or so buildings cluster around a common, ringed by farmland on three sides and a dark wood to the north-east. The air smells of turned soil and something faintly electric, like the moment before a thunderstorm. A goat stands on the village green — six inches above the ground, rotating slowly, entirely untroubled by its situation.

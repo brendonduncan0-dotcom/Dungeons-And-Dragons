@@ -6,6 +6,12 @@ act: 3
 ---
 
 # The Binding Glade
+## Battle Maps
+
+| Location | Battle Map |
+|---|---|
+| The Binding Glade | ![[The Binding Glade-1.png]] |
+
 
 > [!info] Read Aloud
 > The trees open into a near-perfect circle, roughly sixty feet across. The canopy closes above it but doesn't seal — you can see stars through a gap at the centre. The ground is scorched in a large spiral pattern, and the air smells of old copper and frost. Chalk marks trace the spiral outward to the clearing's edge, worn but still legible, still faintly luminous. Four iron torch stakes stand at the compass points, burned down to nothing. It is very quiet. And then something moves in the trees to the north.
