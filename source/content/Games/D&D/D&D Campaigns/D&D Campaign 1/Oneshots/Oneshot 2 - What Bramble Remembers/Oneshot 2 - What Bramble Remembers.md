@@ -7,8 +7,6 @@ players: 3-4
 difficulty: Medium
 ---
 
-# Oneshot 2 - What Bramble Remembers
-
 ## Premise
 
 The party is contracted to investigate magical disturbances near Millhaven, a quiet farming village on the outskirts of Waterdeep. The source is Durgin Stonehew — a warmhearted dwarf wizard whose experimental research is leaking into the surrounding area. When the party meets him and his baby owlbear familiar, Bramble, everything seems manageable. It isn't.

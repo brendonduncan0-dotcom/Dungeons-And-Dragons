@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 2
 ---
 
-# Act 2 — The Weight of the Work
-
 ← [[Act 1 - Hearth and Feathers]] | [[Act 3 - What Bramble Remembers]] →
 
 The morning after dinner, something has changed. The disturbances are colder and quieter. Tracks lead from the cottage into the Thornwood. Following them reveals what Durgin has been practicing on — and returning to the cottage reveals what he has done. This act is built around one centrepiece: Durgin's journal. Everything before it is atmosphere; everything after it is motivation.

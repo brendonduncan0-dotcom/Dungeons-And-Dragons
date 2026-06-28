@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 1
 ---
 
-# Aldra
-
 **Role:** Quest giver / Village elder
 **First appears:** Act 1
 **Location:** [[Millhaven Village]]

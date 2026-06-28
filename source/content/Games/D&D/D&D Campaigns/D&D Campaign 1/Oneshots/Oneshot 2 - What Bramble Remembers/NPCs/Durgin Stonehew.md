@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 1
 ---
 
-# Durgin Stonehew
-
 **Role:** Key NPC / Tragic figure
 **First appears:** Act 1
 **Location:** [[Durgin's Cottage]]

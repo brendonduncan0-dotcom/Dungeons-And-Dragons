@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 1
 ---
 
-# Act 1 — Hearth and Feathers
-
 ← [[Oneshot 2 - What Bramble Remembers]] | [[Act 2 - The Weight of the Work]] →
 
 The party arrives in Millhaven on a routine guild contract and immediately finds the village quietly losing its mind. The source of the disturbances leads them to Durgin Stonehew, a warmhearted dwarf wizard on the village edge, and his baby owlbear Bramble. This act is the emotional foundation of the adventure — its job is to make the players genuinely like both of them. Everything in Act 2 and 3 depends on that.

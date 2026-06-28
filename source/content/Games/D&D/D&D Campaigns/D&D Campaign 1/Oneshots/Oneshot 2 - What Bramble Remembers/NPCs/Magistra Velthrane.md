@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 3
 ---
 
-# Magistra Velthrane
-
 **Role:** Antagonist (negotiable)
 **First appears:** Act 3
 **Location:** [[The Binding Glade]]

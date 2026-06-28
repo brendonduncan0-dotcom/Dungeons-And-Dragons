@@ -4,8 +4,6 @@ tags: [dnd, npc]
 oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 ---
 
-# Academium Sentinel
-
 **Role:** Generic enemy — Arcane Academium guard detail
 **Appears in:** Act 3 — [[What Bramble Remembers]]
 

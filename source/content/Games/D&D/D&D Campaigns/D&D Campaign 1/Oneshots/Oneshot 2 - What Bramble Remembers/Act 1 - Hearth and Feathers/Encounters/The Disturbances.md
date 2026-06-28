@@ -6,8 +6,6 @@ act: 1
 type: exploration
 ---
 
-# The Disturbances
-
 **Act:** 1 — [[Act 1 - Hearth and Feathers]]
 **Location:** [[Millhaven Village]]
 **Encounter type:** Exploration / Skill Challenge

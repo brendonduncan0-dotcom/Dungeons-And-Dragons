@@ -6,8 +6,6 @@ act: 3
 type: social
 ---
 
-# What Bramble Remembers
-
 **Act:** 3 — [[Act 3 - What Bramble Remembers]]
 **Location:** [[The Binding Glade]]
 **Encounter type:** Social (Combat optional)

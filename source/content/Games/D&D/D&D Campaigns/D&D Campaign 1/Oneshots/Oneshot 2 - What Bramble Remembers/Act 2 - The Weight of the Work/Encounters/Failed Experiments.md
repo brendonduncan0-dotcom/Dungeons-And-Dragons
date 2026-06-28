@@ -6,8 +6,6 @@ act: 2
 type: exploration
 ---
 
-# Failed Experiments
-
 **Act:** 2 — [[Act 2 - The Weight of the Work]]
 **Location:** [[The Thornwood]]
 **Encounter type:** Exploration

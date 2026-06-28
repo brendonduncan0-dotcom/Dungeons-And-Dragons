@@ -6,8 +6,6 @@ act: 2
 type: exploration
 ---
 
-# The Empty Cottage
-
 **Act:** 2 — [[Act 2 - The Weight of the Work]]
 **Location:** [[Durgin's Cottage]]
 **Encounter type:** Exploration / Roleplay

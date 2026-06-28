@@ -6,8 +6,6 @@ act: 1
 type: social
 ---
 
-# Dinner at Durgins
-
 **Act:** 1 — [[Act 1 - Hearth and Feathers]]
 **Location:** [[Durgin's Cottage]]
 **Encounter type:** Social / Light Challenge

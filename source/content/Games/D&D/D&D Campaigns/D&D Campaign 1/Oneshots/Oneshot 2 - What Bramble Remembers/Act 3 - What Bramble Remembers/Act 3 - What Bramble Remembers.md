@@ -5,8 +5,6 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 3
 ---
 
-# Act 3 — What Bramble Remembers
-
 ← [[Act 2 - The Weight of the Work]] | [[Oneshot 2 - What Bramble Remembers]] →
 
 The tracks lead into the deep Thornwood. The party follows them to a cleared glade and finds something large waiting in the dark. This act has no correct answer — the resolution belongs entirely to the players. Magistra Velthrane's arrival gives them a villain to direct their anger at if they need one, but the emotional core is the conversation with Durgin before she arrives. Protect that conversation. Velthrane can wait.

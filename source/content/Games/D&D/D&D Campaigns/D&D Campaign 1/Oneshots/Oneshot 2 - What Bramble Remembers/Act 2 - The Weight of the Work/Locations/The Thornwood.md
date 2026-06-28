@@ -5,13 +5,11 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 2
 ---
 
-# The Thornwood
 ## Battle Maps
 
-| Location | Battle Map |
-|---|---|
-| The Thornwood | ![[The Thornwood-1.png]] |
-
+| Location | When | Battle Map |
+|---|---|---|
+| The Thornwood | Act 2 | ![[The Thornwood-1.png]] |
 
 > [!info] Read Aloud
 > The trees here are old and close together — not a managed wood but a place that has been left entirely to its own devices. The undergrowth is dense at the edges and thins toward the interior, where the canopy blocks enough light that nothing grows from the floor. It is quiet in the specific way places get when animals have decided to be somewhere else.

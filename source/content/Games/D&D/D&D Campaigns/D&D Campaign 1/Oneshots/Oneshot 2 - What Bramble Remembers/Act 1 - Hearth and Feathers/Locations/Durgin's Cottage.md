@@ -5,14 +5,12 @@ oneshot: "[[Oneshot 2 - What Bramble Remembers]]"
 act: 1
 ---
 
-# Durgin's Cottage
 ## Battle Maps
 
-| Location | Battle Map |
-|---|---|
-| Durgin's Cottage — Cozy | ![[Durgins Cottage-1.png]] |
-| Durgin's Cottage — Crime Scene | ![[Durgins Cottage-2.png]] |
-
+| Location | When | Battle Map |
+|---|---|---|
+| Durgin's Cottage — Cozy | Act 1 — dinner | ![[Durgins Cottage-1.png]] |
+| Durgin's Cottage — Crime Scene | Act 2 — return | ![[Durgins Cottage-2.png]] |
 
 > [!info] Read Aloud
 > The cottage sits slightly apart from the village, backed against the tree line. It is comfortably cluttered from the outside in: window boxes overflowing with herbs, a cracked cauldron repurposed as a planter, three stacks of firewood that have toppled into each other and not been restacked. Warm light shows through the windows. Something inside makes a sound like a large, contented owl.
@@ -54,7 +52,7 @@ act: 1
 **Cozy** (Act 1)
 One large room: chalk ritual circle scraped bare on the flagstone floor at the north end with notation intact around the rim, wooden shelves of glass jars neatly arranged on the north and east walls, slate board mounted on the east wall at the north end covered in dense notation, half-burned letter tucked under a stack of books on the study shelf, large oversized armchair at the centre of the room, active stone hearth on the south wall with pots on the hob and dried herbs hanging above.
 
-**Crime Scene** (Act 3)
+**Crime Scene** (Act 2)
 One large room: ritual circle charred black at its centre with heat-darkened rings radiating outward across the flagstone, wooden shelves overturned with broken glass jars scattered across the floor, slate board fallen from the wall bracket, north wall collapsed outward leaving an irregular gap with stone and timber fragments on the exterior ground, large oversized armchair overturned at the centre, stone hearth on the south wall cold and filled with grey ash with no fire, dried herbs above the hearth fallen.
 
 ## Encounters Here
