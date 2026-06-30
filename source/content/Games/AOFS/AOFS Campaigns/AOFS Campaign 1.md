@@ -42,12 +42,14 @@ title: Campaign 1
 ## Matchups
 
 <iframe src="https://challonge.com/v6on44ba/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-Direct link: [Age Of Fantasy Campaign 1 - Pairings & Standings](https://challonge.com/v6on44ba)
+
 
 >[!Summary] Pairings System
->Matchups are determined using Swiss pairings based on # of wins with VP tracked separately.
+>I am using Challonge.com for generating Swiss pairings. Leaderboard will be tracked separately.
 >
->Please ignore the leader board on the direct link as it is not based on the correct metrics, refer to above
+>Please ignore the leader board on the Challonge.com as it's not based on the correct metrics.
+>
+>Direct link: [Age Of Fantasy Campaign 1 - Pairings & Standings](https://challonge.com/v6on44ba)
 
 
 ---
