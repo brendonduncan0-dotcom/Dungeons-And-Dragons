@@ -33,7 +33,7 @@ title: Campaign 1
 | Chad    | NikoLiberty2008      | [Chad's Human Empire](https://army-forge.onepagerules.com/share?id=ItqOkaeLb9mJ&name=Chad_Campaign%201)           |                                                       | 1              | 0    | 1        | 1               |
 | Grae    | Grae                 | [Grae's Havoc Dwarves](https://army-forge.onepagerules.com/share?id=PVNxTIZ6Ssm-&name=Grae_Campaign%201)          |                                                       | 0              | 0    | 0        | -               |
 | Austin  | Ereptile Dysfunction | [Austin's Havoc Warriors](https://army-forge.onepagerules.com/share?id=leeTc9Wk7Qkn&name=Austin_Campaign%201)     |                                                       | 0              | 0    | 0        | -               |
-| Jarret  | mith                 | [Jarrett's Sky City Dwarves](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 1              | 0    | 0        | 0               |
+| Jarrett | mith                 | [Jarrett's Sky City Dwarves](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 1              | 0    | 0        | 0               |
 | Simon   | simonljonesy         | [Simon's Wood Elves](https://army-forge.onepagerules.com/share?id=WXjbJXpavsvy&name=Simon_Campaign%201)           |                                                       | 1              | 0    | 0        | 0               |
 
 
