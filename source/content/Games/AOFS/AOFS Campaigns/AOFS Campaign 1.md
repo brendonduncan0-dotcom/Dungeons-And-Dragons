@@ -17,13 +17,6 @@ title: Campaign 1
 > 
 > Please provide us at least 24 hours notice of your game so we can have the play space prepared.
 
->[!summary] Timeslots
-> Campaign games will be played at Brendon & Mira's place on Wednesday's between 6:00pm & 10:00pm.
-> 
-> Each month you will be assigned a match & you will be responsible for organising your game with your opponent.
-> 
-> Please provide us at least 24 hours notice of your game so we can have the play space prepared.
-
 >[!warning] Availability Requirement
 >To play in this campaign, you must be available to play on Wednesdays.
 
