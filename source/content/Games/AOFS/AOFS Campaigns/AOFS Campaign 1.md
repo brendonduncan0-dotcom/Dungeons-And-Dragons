@@ -101,7 +101,7 @@ title: Campaign 1
 > 
 > **Conceding:** At the beginning of any round players may concede, taking the loss & removing all of their units from the table, which don't count as casualties for this game.
 > 
-> **Mission Rewards**: In addition to mission objectives, the winning warband gets 2 VP and 20pts, whilst all losing warbands get 40pts instead.
+> **Mission Rewards**: In addition to mission objectives, the winning warband gets 20pts, whilst all losing warbands get 40pts instead.
 > 
 
 >[!summary] Checking Casualties
