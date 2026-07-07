@@ -103,6 +103,44 @@ pre:has(> code.language-statblock) {
   border-bottom: 2px solid var(--statblock-primary-color) !important;
 }
 
+/* Header row: name + "add to initiative tracker" button */
+.statblock-header {
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: space-between !important;
+  gap: 0.5em !important;
+
+  .statblock-name {
+    flex: 1 1 auto !important;
+  }
+}
+
+/* Restore normal button styling here -- the wildcard rule above
+   (".statblock * { color/border/background: ... !important }") would
+   otherwise flatten this into invisible text. */
+.statblock-tracker-btn {
+  flex-shrink: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 1.7em !important;
+  height: 1.7em !important;
+  margin-bottom: 0.2em !important;
+  padding: 0 !important;
+  border: 1px solid var(--statblock-primary-color) !important;
+  border-radius: 4px !important;
+  background: var(--statblock-background-color) !important;
+  color: var(--statblock-primary-color) !important;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  transition: background 0.15s ease !important;
+
+  &:hover {
+    background: var(--statblock-bar-color) !important;
+  }
+}
+
 /* Type/size line */
 .statblock h2,
 .statblock-meta {

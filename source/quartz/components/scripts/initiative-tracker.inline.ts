@@ -573,6 +573,29 @@ function nextTurn() {
   renderRows()
 }
 
+// Adds creature groups to whatever encounter is currently active,
+// rather than replacing it (unlike openSidebar, which always starts
+// fresh). Mirrors the Obsidian Fantasy Statblocks "add to initiative
+// tracker" button: if the tracker is empty/closed, this starts one; if
+// an encounter is already running, the creature just joins it.
+function addCombatantsFromGroups(groups: CreatureGroup[]) {
+  combatants.push(...expandGroups(groups))
+
+  const sidebar = document.getElementById("initiative-tracker-sidebar")
+  if (!sidebar) return
+
+  if (!sidebar.classList.contains("is-open")) {
+    sidebar.classList.add("is-open")
+    sidebar.setAttribute("aria-hidden", "false")
+    hideReopenTab()
+
+    const titleEl = sidebar.querySelector<HTMLElement>(".initiative-tracker-title")
+    if (titleEl && !titleEl.textContent) titleEl.textContent = "Initiative tracker"
+  }
+
+  renderRows()
+}
+
 function openSidebar(title: string, data: { creatures: CreatureGroup[] }) {
   combatants = expandGroups(data.creatures ?? [])
   round = 1
@@ -652,6 +675,24 @@ document.addEventListener("nav", () => {
         openSidebar(title, parsed)
       } catch (err) {
         console.error("Failed to parse encounter block", err)
+      }
+    })
+  })
+
+  // Re-bind statblock "add to initiative tracker" buttons for the
+  // newly-loaded page
+  const statblockButtons = document.querySelectorAll<HTMLButtonElement>(".statblock-tracker-btn")
+  statblockButtons.forEach((btn) => {
+    if (btn.dataset.bound === "true") return
+    btn.dataset.bound = "true"
+    btn.addEventListener("click", () => {
+      const raw = btn.dataset.combat
+      if (!raw) return
+      try {
+        const group = JSON.parse(raw) as CreatureGroup
+        addCombatantsFromGroups([group])
+      } catch (err) {
+        console.error("Failed to parse statblock combat data", err)
       }
     })
   })

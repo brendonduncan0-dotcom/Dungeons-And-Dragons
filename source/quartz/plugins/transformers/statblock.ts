@@ -3,6 +3,21 @@ import { Root } from "mdast"
 import { visit } from "unist-util-visit"
 import { load } from "js-yaml"
 
+// Pulls the leading integer out of values that may carry parenthetical
+// detail, e.g. "45 (6d8+18)" -> 45, "15 (natural armor)" -> 15.
+function parseLeadingNumber(val: unknown): number | undefined {
+  if (typeof val === "number") return Number.isFinite(val) ? val : undefined
+  if (typeof val !== "string") return undefined
+  const match = val.match(/-?\d+/)
+  if (!match) return undefined
+  const n = Number(match[0])
+  return Number.isFinite(n) ? n : undefined
+}
+
+function escapeAttr(json: string): string {
+  return json.replace(/'/g, "&#39;").replace(/</g, "&lt;")
+}
+
 export const StatblockTransformer: QuartzTransformerPlugin = () => {
   return {
     name: "StatblockTransformer",
@@ -21,7 +36,26 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
 
                   // Name
                   if (data.name) {
-                    html += `  <h1 class="statblock-name">${data.name}</h1>\n`
+                    const dexMod =
+                      data.stats && Array.isArray(data.stats) && data.stats.length === 6
+                        ? Math.floor((data.stats[1] - 10) / 2)
+                        : undefined
+
+                    const trackerPayload: Record<string, unknown> = { name: data.name }
+                    const hpNum = parseLeadingNumber(data.hp)
+                    const acNum = parseLeadingNumber(data.ac)
+                    if (hpNum !== undefined) trackerPayload.hp = hpNum
+                    if (acNum !== undefined) trackerPayload.ac = acNum
+                    if (dexMod !== undefined) trackerPayload.modifier = dexMod
+
+                    const payload = escapeAttr(JSON.stringify(trackerPayload))
+
+                    html += `  <div class="statblock-header">\n`
+                    html += `    <h1 class="statblock-name">${data.name}</h1>\n`
+                    html += `    <button class="statblock-tracker-btn" type="button" data-combat='${payload}' title="Add to initiative tracker" aria-label="Add ${data.name} to initiative tracker">\n`
+                    html += `      <span aria-hidden="true">&#9876;</span>\n`
+                    html += `    </button>\n`
+                    html += `  </div>\n`
                   }
 
                   // Size, type, alignment
