@@ -67,6 +67,15 @@ He is warm, apologetic, and quietly wry about his situation. He is at peace with
 
 ---
 
+
+## Initiative
+
+```encounter
+name: What Bramble Remembers
+creatures:
+  - Magistra Velthrane, 45, 13, 1
+  - 2: Academium Sentinel, 26, 16, 1
+```
 ## Resolution Options
 
 ### Mercy
