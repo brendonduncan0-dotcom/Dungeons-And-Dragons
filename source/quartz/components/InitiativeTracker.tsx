@@ -37,7 +37,6 @@ const InitiativeTracker: QuartzComponent = (_props: QuartzComponentProps) => {
         </div>
 
         <div class="initiative-tracker-toolbar">
-          <button type="button" class="initiative-tracker-roll-all">Roll missing</button>
           <button type="button" class="initiative-tracker-sort">Sort</button>
           <button type="button" class="initiative-tracker-next-turn">Next turn &rarr;</button>
         </div>

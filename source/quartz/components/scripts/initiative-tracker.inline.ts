@@ -192,10 +192,41 @@ function resolveCount(count: number | string | undefined): number {
   return Math.max(1, total)
 }
 
+// Renames the newly-added combatant to avoid colliding with an
+// already-present name, following the same "Name 1", "Name 2" numbering
+// the encounter block already uses for a repeated count. If an
+// unnumbered combatant with this exact name already exists, it gets
+// bumped to "Name 1" so the new arrival can become "Name 2".
+function nextUniqueName(baseName: string): string {
+  const escaped = baseName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+  const numberedPattern = new RegExp(`^${escaped} (\\d+)$`)
+
+  let maxNumber = 0
+  let plainMatch: Combatant | undefined
+  combatants.forEach((c) => {
+    if (c.name === baseName) {
+      plainMatch = c
+    } else {
+      const m = c.name.match(numberedPattern)
+      if (m) maxNumber = Math.max(maxNumber, Number(m[1]))
+    }
+  })
+
+  if (!plainMatch && maxNumber === 0) return baseName
+
+  if (plainMatch) {
+    plainMatch.name = `${baseName} 1`
+    maxNumber = Math.max(maxNumber, 1)
+  }
+
+  return `${baseName} ${maxNumber + 1}`
+}
+
 function expandGroups(groups: CreatureGroup[]): Combatant[] {
   const expanded: Combatant[] = []
   groups.forEach((g) => {
     const count = resolveCount(g.count)
+    const mod = typeof g.modifier === "number" ? g.modifier : 0
     for (let i = 0; i < count; i++) {
       expanded.push({
         id: nextId++,
@@ -203,7 +234,7 @@ function expandGroups(groups: CreatureGroup[]): Combatant[] {
         hp: g.hp,
         maxHp: g.hp,
         ac: g.ac,
-        initiative: null,
+        initiative: roll(mod),
         mod: typeof g.modifier === "number" ? g.modifier : null,
         conditions: [],
       })
@@ -534,15 +565,6 @@ function renderRows() {
   persistState()
 }
 
-function rollMissing() {
-  combatants.forEach((c) => {
-    if (c.initiative === null) {
-      c.initiative = roll(c.mod ?? 0)
-    }
-  })
-  renderRows()
-}
-
 function sortByInitiative() {
   combatants.sort((a, b) => (b.initiative ?? -Infinity) - (a.initiative ?? -Infinity))
   currentIndex = 0
@@ -579,7 +601,11 @@ function nextTurn() {
 // tracker" button: if the tracker is empty/closed, this starts one; if
 // an encounter is already running, the creature just joins it.
 function addCombatantsFromGroups(groups: CreatureGroup[]) {
-  combatants.push(...expandGroups(groups))
+  const newCombatants = expandGroups(groups)
+  newCombatants.forEach((c) => {
+    c.name = nextUniqueName(c.name)
+    combatants.push(c)
+  })
 
   const sidebar = document.getElementById("initiative-tracker-sidebar")
   if (!sidebar) return
@@ -704,7 +730,6 @@ document.addEventListener("nav", () => {
     sidebar.dataset.bound = "true"
 
     sidebar.querySelector(".initiative-tracker-hide")?.addEventListener("click", hideSidebar)
-    sidebar.querySelector(".initiative-tracker-roll-all")?.addEventListener("click", rollMissing)
     sidebar.querySelector(".initiative-tracker-sort")?.addEventListener("click", sortByInitiative)
     sidebar.querySelector(".initiative-tracker-next-turn")?.addEventListener("click", nextTurn)
     sidebar.querySelector(".initiative-tracker-end")?.addEventListener("click", endEncounter)
@@ -730,15 +755,16 @@ document.addEventListener("nav", () => {
       const hpRaw = data.get("hp")
       const acRaw = data.get("ac")
       const modRaw = data.get("modifier")
+      const mod = modRaw ? Number(modRaw) : null
 
       combatants.push({
         id: nextId++,
-        name,
+        name: nextUniqueName(name),
         hp: hpRaw ? Number(hpRaw) : undefined,
         maxHp: hpRaw ? Number(hpRaw) : undefined,
         ac: acRaw ? Number(acRaw) : undefined,
-        initiative: null,
-        mod: modRaw ? Number(modRaw) : null,
+        initiative: roll(mod ?? 0),
+        mod,
         conditions: [],
       })
       form.reset()
