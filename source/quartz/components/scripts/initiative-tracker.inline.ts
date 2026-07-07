@@ -597,7 +597,7 @@ function renderRows() {
     locate.className = "initiative-row-locate"
     locate.setAttribute("aria-label", `Find ${c.sourceName}'s statblock on this page`)
     locate.title = "Find statblock on this page"
-    locate.textContent = "☰"
+    locate.textContent = "Stats"
     locate.addEventListener("click", () => locateStatblock(c, locate))
 
     rowTop.append(initInput, name, locate, remove)
