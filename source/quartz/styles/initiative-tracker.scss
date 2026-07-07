@@ -252,6 +252,23 @@
     }
   }
 
+  .initiative-row-locate {
+    background: none;
+    border: none;
+    color: var(--dark);
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 1;
+
+    &:hover {
+      color: var(--secondary);
+    }
+
+    &.is-not-found {
+      animation: initiative-locate-shake 0.4s ease;
+    }
+  }
+
   .initiative-row-edit {
     margin-left: auto;
     background: none;
@@ -264,6 +281,12 @@
       color: var(--secondary);
     }
   }
+}
+
+@keyframes initiative-locate-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-3px); }
+  40%, 80% { transform: translateX(3px); }
 }
 
 .initiative-edit-panel {

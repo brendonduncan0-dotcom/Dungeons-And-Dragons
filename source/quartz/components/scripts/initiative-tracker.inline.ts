@@ -32,6 +32,13 @@ interface Condition {
 interface Combatant {
   id: number
   name: string
+  // The creature name as written in its source (the encounter block
+  // entry, the statblock button, or what was typed into the add-combatant
+  // form) -- captured before any "Name 1"/"Name 2" de-duplication suffix
+  // is applied to `name`. Used to find this combatant's statblock on the
+  // page without being thrown off by a suffix that isn't part of the
+  // actual creature name.
+  sourceName: string
   hp?: number
   maxHp?: number
   ac?: number
@@ -134,6 +141,7 @@ function restorePersistedState(): boolean {
 
     combatants = (state.combatants as any[]).map((c) => ({
       ...c,
+      sourceName: typeof c.sourceName === "string" ? c.sourceName : c.name,
       conditions: Array.isArray(c.conditions) ? c.conditions : [],
     }))
     round = typeof state.round === "number" ? state.round : 1
@@ -231,6 +239,7 @@ function expandGroups(groups: CreatureGroup[]): Combatant[] {
       expanded.push({
         id: nextId++,
         name: count > 1 ? `${g.name} ${i + 1}` : g.name,
+        sourceName: g.name,
         hp: g.hp,
         maxHp: g.hp,
         ac: g.ac,
@@ -241,6 +250,27 @@ function expandGroups(groups: CreatureGroup[]): Combatant[] {
     }
   })
   return expanded
+}
+
+// Looks for this combatant's statblock on the page currently being
+// viewed only -- no cross-page index. Matches on `sourceName` (the
+// original creature name, before any "Name 1"/"Name 2" de-duplication
+// suffix) against every rendered `.statblock-name` on the page.
+function locateStatblock(c: Combatant, btn: HTMLButtonElement) {
+  const target = Array.from(document.querySelectorAll<HTMLElement>(".statblock-name")).find(
+    (el) => el.textContent?.trim().toLowerCase() === c.sourceName.trim().toLowerCase(),
+  )
+
+  if (!target) {
+    btn.classList.add("is-not-found")
+    window.setTimeout(() => btn.classList.remove("is-not-found"), 600)
+    return
+  }
+
+  const card = target.closest<HTMLElement>(".statblock") ?? target
+  card.scrollIntoView({ behavior: "smooth", block: "center" })
+  card.classList.add("is-located-highlight")
+  window.setTimeout(() => card.classList.remove("is-located-highlight"), 1500)
 }
 
 function ensureConditionDatalist() {
@@ -553,8 +583,16 @@ function renderRows() {
       editPanel.classList.toggle("is-open")
     })
 
+    const locate = document.createElement("button")
+    locate.type = "button"
+    locate.className = "initiative-row-locate"
+    locate.setAttribute("aria-label", `Find ${c.sourceName}'s statblock on this page`)
+    locate.title = "Find statblock on this page"
+    locate.textContent = "\u{1F4CD}"
+    locate.addEventListener("click", () => locateStatblock(c, locate))
+
     rowTop.append(initInput, name, remove)
-    rowMeta.append(ac, hpWrap, mod, editToggle)
+    rowMeta.append(ac, hpWrap, mod, locate, editToggle)
     entry.appendChild(rowTop)
     entry.appendChild(rowMeta)
     entry.appendChild(editPanel)
@@ -760,6 +798,7 @@ document.addEventListener("nav", () => {
       combatants.push({
         id: nextId++,
         name: nextUniqueName(name),
+        sourceName: name,
         hp: hpRaw ? Number(hpRaw) : undefined,
         maxHp: hpRaw ? Number(hpRaw) : undefined,
         ac: acRaw ? Number(acRaw) : undefined,

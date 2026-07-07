@@ -65,6 +65,15 @@ He is warm, apologetic, and quietly wry about his situation. He is at peace with
 | [[Magistra Velthrane]] | 4 | 1 | Hangs back; Hold Person opener; retreats below 15 HP |
 | [[Academium Sentinel]] | 1/2 | 2 | Shield Bash to protect Velthrane; disengage on her order |
 
+## Initiative
+
+```encounter
+name: What Bramble Remembers
+creatures:
+  - Magistra Velthrane, 45, 13, 1
+  - 2: Academium Sentinel, 26, 16, 1
+```
+
 ---
 
 ## Resolution Options

@@ -79,6 +79,18 @@ div[data-callout="statblock"] {
   }
 }
 
+/* Brief highlight flash when the initiative tracker's "locate statblock"
+   button scrolls this card into view. Uses outline rather than box-shadow
+   or border -- both of those are set with !important above, and a plain
+   (non-keyframe) rule is the reliable way to win a specificity fight
+   against another !important declaration; @keyframes strips !important
+   entirely, so animating a fought-over property here would silently
+   never show. */
+.statblock.is-located-highlight {
+  outline: 4px solid var(--statblock-bar-color) !important;
+  outline-offset: 2px;
+}
+
 /* Remove default code block styling */
 pre:has(> code.language-statblock) {
   background: transparent !important;
