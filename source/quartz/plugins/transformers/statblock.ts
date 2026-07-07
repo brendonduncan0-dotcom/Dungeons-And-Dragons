@@ -50,12 +50,15 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
 
                     const payload = escapeAttr(JSON.stringify(trackerPayload))
 
-                    html += `  <div class="statblock-header">\n`
-                    html += `    <h1 class="statblock-name">${data.name}</h1>\n`
-                    html += `    <button class="statblock-tracker-btn" type="button" data-combat='${payload}' title="Add to initiative tracker" aria-label="Add ${data.name} to initiative tracker">\n`
-                    html += `      <span aria-hidden="true">&#9876;</span>\n`
-                    html += `    </button>\n`
-                    html += `  </div>\n`
+                    // The button lives inside the <h1>, right after the name
+                    // text, rather than as a sibling in a wrapping flex row.
+                    // Quartz's rehype-autolink-headings plugin (behavior:
+                    // "append") adds its own invisible-until-hover anchor
+                    // icon as the *last* child of every heading -- putting
+                    // our button before that point means the anchor icon
+                    // ends up after our button instead of between it and
+                    // the name text.
+                    html += `  <h1 class="statblock-name">${data.name}<button class="statblock-tracker-btn" type="button" data-combat='${payload}' title="Add to initiative tracker" aria-label="Add ${data.name} to initiative tracker"><span aria-hidden="true">&#9876;</span></button></h1>\n`
                   }
 
                   // Size, type, alignment

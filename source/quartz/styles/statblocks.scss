@@ -115,42 +115,30 @@ pre:has(> code.language-statblock) {
   border-bottom: 2px solid var(--statblock-primary-color) !important;
 }
 
-/* Header row: name + "add to initiative tracker" button. The underline
-   lives here (not on .statblock-name) so it spans the full row while the
-   name and button themselves size to their own content and sit directly
-   next to each other -- rather than the name stretching to fill the row
-   (flex-grow) and shoving the button out to the far edge, away from the
-   visible text. */
-.statblock-header {
-  display: flex !important;
-  align-items: baseline !important;
-  gap: 0.5em !important;
-  padding-bottom: 0.2em !important;
-  border-bottom: 2px solid var(--statblock-primary-color) !important;
-
-  .statblock-name {
-    flex: 0 1 auto !important;
-    padding-bottom: 0 !important;
-    border-bottom: none !important;
-  }
-}
-
-/* Restore normal button styling here -- the wildcard rule above
+/* "Add to initiative tracker" button, placed inline inside .statblock-name
+   right after the creature's name text (see statblock.ts) rather than as
+   a sibling in a wrapping flex row. This is deliberate: Quartz's
+   rehype-autolink-headings plugin appends its own invisible-until-hover
+   anchor-link icon as the *last* child of every heading, so keeping our
+   button earlier in the h1's content means that anchor icon lands after
+   our button instead of wedging itself between the name and the button.
+   Restore normal button styling here -- the wildcard rule above
    (".statblock * { color/border/background: ... !important }") would
    otherwise flatten this into invisible text. */
 .statblock-tracker-btn {
-  flex-shrink: 0 !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 1.7em !important;
-  height: 1.7em !important;
+  vertical-align: middle !important;
+  margin-left: 0.4em !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
   padding: 0 !important;
   border: 1px solid var(--statblock-primary-color) !important;
   border-radius: 4px !important;
   background: var(--statblock-background-color) !important;
   color: var(--statblock-primary-color) !important;
-  font-size: 15px !important;
+  font-size: 13px !important;
   line-height: 1 !important;
   cursor: pointer !important;
   transition: background 0.15s ease !important;
