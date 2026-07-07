@@ -22,40 +22,44 @@ const InitiativeTracker: QuartzComponent = (_props: QuartzComponentProps) => {
       </button>
 
       <div id="initiative-tracker-sidebar" class="initiative-tracker-sidebar" aria-hidden="true">
-        <div class="initiative-tracker-header">
-          <span class="initiative-tracker-title"></span>
-          <div class="initiative-tracker-header-actions">
-            <span class="initiative-tracker-round-label">Round <span class="initiative-tracker-round">1</span></span>
-            <button
-              type="button"
-              class="initiative-tracker-hide"
-              aria-label="Hide initiative tracker (keeps the encounter running)"
-            >
-              &times;
-            </button>
+        <div class="initiative-tracker-sidebar-top">
+          <div class="initiative-tracker-header">
+            <span class="initiative-tracker-title"></span>
+            <div class="initiative-tracker-header-actions">
+              <span class="initiative-tracker-round-label">Round <span class="initiative-tracker-round">1</span></span>
+              <button
+                type="button"
+                class="initiative-tracker-hide"
+                aria-label="Hide initiative tracker (keeps the encounter running)"
+              >
+                &times;
+              </button>
+            </div>
+          </div>
+
+          <div class="initiative-tracker-toolbar">
+            <button type="button" class="initiative-tracker-sort">Sort</button>
+            <button type="button" class="initiative-tracker-next-turn">Next turn &rarr;</button>
           </div>
         </div>
 
-        <div class="initiative-tracker-toolbar">
-          <button type="button" class="initiative-tracker-sort">Sort</button>
-          <button type="button" class="initiative-tracker-next-turn">Next turn &rarr;</button>
+        <div class="initiative-tracker-sidebar-scroll">
+          <div class="initiative-tracker-rows"></div>
+
+          <form class="initiative-tracker-add-form">
+            <div class="initiative-tracker-add-title">Add combatant</div>
+            <div class="initiative-tracker-add-fields">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="number" name="hp" placeholder="HP" />
+              <input type="number" name="ac" placeholder="AC" />
+              <input type="number" name="modifier" placeholder="Initiative modifier" />
+              <button type="submit" aria-label="Add combatant">+</button>
+            </div>
+            <div class="initiative-tracker-add-error" role="alert"></div>
+          </form>
+
+          <button type="button" class="initiative-tracker-end">End encounter</button>
         </div>
-
-        <div class="initiative-tracker-rows"></div>
-
-        <form class="initiative-tracker-add-form">
-          <div class="initiative-tracker-add-title">Add combatant</div>
-          <div class="initiative-tracker-add-fields">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="number" name="hp" placeholder="HP" />
-            <input type="number" name="ac" placeholder="AC" />
-            <input type="number" name="modifier" placeholder="Initiative modifier" />
-            <button type="submit" aria-label="Add combatant">+</button>
-          </div>
-          <div class="initiative-tracker-add-error" role="alert"></div>
-        </form>
-
-        <button type="button" class="initiative-tracker-end">End encounter</button>
       </div>
     </>
   )

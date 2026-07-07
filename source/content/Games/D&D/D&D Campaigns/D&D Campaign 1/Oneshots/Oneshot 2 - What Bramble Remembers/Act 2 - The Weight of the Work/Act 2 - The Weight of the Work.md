@@ -32,6 +32,7 @@ The morning after dinner, something has changed. The disturbances are colder and
 > The wooden owl on the bench is the emotional anchor of this scene — name it specifically when describing the workbench. Players who remember Bramble carrying it in Act 1 will understand immediately. Read the journal in sections; don't rush through it. Rindle reads the research notes without a check. Give him a moment before he has to explain them.
 
 ### Act 2 Scene 2 Locations
+![[Durgin's Cottage]]
 
 ### Act 2 Scene 2 Encounters
 ![[The Empty Cottage]]
