@@ -18,6 +18,12 @@ function escapeAttr(json: string): string {
   return json.replace(/'/g, "&#39;").replace(/</g, "&lt;")
 }
 
+// For plain double-quoted HTML attributes (as opposed to the
+// single-quoted JSON payload above).
+function escapeHtmlAttr(val: string): string {
+  return val.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;")
+}
+
 export const StatblockTransformer: QuartzTransformerPlugin = () => {
   return {
     name: "StatblockTransformer",
@@ -58,7 +64,8 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                     // our button before that point means the anchor icon
                     // ends up after our button instead of between it and
                     // the name text.
-                    html += `  <h1 class="statblock-name">${data.name}<button class="statblock-tracker-btn" type="button" data-combat='${payload}' title="Add to initiative tracker" aria-label="Add ${data.name} to initiative tracker"><span aria-hidden="true">&#9876;</span></button></h1>\n`
+                    const nameAttr = escapeHtmlAttr(data.name)
+                    html += `  <h1 class="statblock-name" data-creature-name="${nameAttr}">${data.name}<button class="statblock-tracker-btn" type="button" data-combat='${payload}' title="Add to initiative tracker" aria-label="Add ${data.name} to initiative tracker"><span aria-hidden="true">&#9876;</span></button></h1>\n`
                   }
 
                   // Size, type, alignment

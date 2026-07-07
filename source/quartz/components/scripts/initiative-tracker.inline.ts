@@ -255,10 +255,14 @@ function expandGroups(groups: CreatureGroup[]): Combatant[] {
 // Looks for this combatant's statblock on the page currently being
 // viewed only -- no cross-page index. Matches on `sourceName` (the
 // original creature name, before any "Name 1"/"Name 2" de-duplication
-// suffix) against every rendered `.statblock-name` on the page.
+// suffix) against each statblock's `data-creature-name` attribute --
+// not `.statblock-name`'s textContent, since that element also contains
+// the "add to initiative tracker" button's own glyph as text.
 function locateStatblock(c: Combatant, btn?: HTMLButtonElement) {
-  const target = Array.from(document.querySelectorAll<HTMLElement>(".statblock-name")).find(
-    (el) => el.textContent?.trim().toLowerCase() === c.sourceName.trim().toLowerCase(),
+  const target = Array.from(
+    document.querySelectorAll<HTMLElement>("[data-creature-name]"),
+  ).find(
+    (el) => el.dataset.creatureName?.trim().toLowerCase() === c.sourceName.trim().toLowerCase(),
   )
 
   if (!target) {
