@@ -256,14 +256,14 @@ function expandGroups(groups: CreatureGroup[]): Combatant[] {
 // viewed only -- no cross-page index. Matches on `sourceName` (the
 // original creature name, before any "Name 1"/"Name 2" de-duplication
 // suffix) against every rendered `.statblock-name` on the page.
-function locateStatblock(c: Combatant, btn: HTMLButtonElement) {
+function locateStatblock(c: Combatant, btn?: HTMLButtonElement) {
   const target = Array.from(document.querySelectorAll<HTMLElement>(".statblock-name")).find(
     (el) => el.textContent?.trim().toLowerCase() === c.sourceName.trim().toLowerCase(),
   )
 
   if (!target) {
-    btn.classList.add("is-not-found")
-    window.setTimeout(() => btn.classList.remove("is-not-found"), 600)
+    btn?.classList.add("is-not-found")
+    window.setTimeout(() => btn?.classList.remove("is-not-found"), 600)
     return
   }
 
@@ -597,7 +597,7 @@ function renderRows() {
     locate.className = "initiative-row-locate"
     locate.setAttribute("aria-label", `Find ${c.sourceName}'s statblock on this page`)
     locate.title = "Find statblock on this page"
-    locate.textContent = "\u{1F4C4}"
+    locate.textContent = "\u{1F5CE}"
     locate.addEventListener("click", () => locateStatblock(c, locate))
 
     rowTop.append(initInput, name, locate, remove)
@@ -616,6 +616,7 @@ function sortByInitiative() {
   combatants.sort((a, b) => (b.initiative ?? -Infinity) - (a.initiative ?? -Infinity))
   currentIndex = 0
   renderRows()
+  if (combatants[currentIndex]) locateStatblock(combatants[currentIndex])
 }
 
 function nextTurn() {
@@ -640,6 +641,7 @@ function nextTurn() {
   }
 
   renderRows()
+  if (combatants[currentIndex]) locateStatblock(combatants[currentIndex])
 }
 
 // Adds creature groups to whatever encounter is currently active,

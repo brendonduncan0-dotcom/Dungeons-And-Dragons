@@ -64,7 +64,8 @@
 
 .initiative-tracker-sidebar-top {
   flex: 0 0 auto;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 0.75rem 1rem;
+  border-bottom: 1px solid var(--gray);
 }
 
 .initiative-tracker-sidebar-scroll {
@@ -111,7 +112,6 @@
 .initiative-tracker-toolbar {
   display: flex;
   gap: 0.4rem;
-  margin-bottom: 0.75rem;
 
   button {
     flex: 1;
