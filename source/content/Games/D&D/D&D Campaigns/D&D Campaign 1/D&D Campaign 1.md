@@ -11,7 +11,7 @@ tags:
 
 - **Campaign number:** 1
 - **Party size:** 5 players total (rotating DM — 1 player always runs as Dungeon Master, 3–4 remaining players are active Player Characters each session)
-- **Character level:** 3 (update as the campaign progresses)
+- **Character level:** 4 (update as the campaign progresses)
 - **Difficulty:** Medium — encounters are designed to drain resources (spell slots, consumables, limited-use abilities) rather than maximise lethality. Death is on the table for poor decisions but must always be clearly telegraphed in advance. Surprise instakills and unavoidable TPKs are off the table.
 - **Setting:** Forgotten Realms. The guild headquarters sits in the outskirts of Waterdeep, on the Sword Coast. The campaign is anchored to the guild headquarters (see World & Lore).
 

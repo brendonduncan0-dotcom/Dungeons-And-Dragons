@@ -68,6 +68,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      Plugin.InitiativeTracker(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false}),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
