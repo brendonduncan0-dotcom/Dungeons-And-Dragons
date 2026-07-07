@@ -15,6 +15,15 @@ tags:
 - **Difficulty:** Medium — encounters are designed to drain resources (spell slots, consumables, limited-use abilities) rather than maximise lethality. Death is on the table for poor decisions but must always be clearly telegraphed in advance. Surprise instakills and unavoidable TPKs are off the table.
 - **Setting:** Forgotten Realms. The guild headquarters sits in the outskirts of Waterdeep, on the Sword Coast. The campaign is anchored to the guild headquarters (see World & Lore).
 
+## Test Encounter
+```encounter
+name: Goblin Ambush 
+creatures: 
+  - Aragorn, 45, 16, 4
+  - 2: Goblin Scout, 7, 13, 2 
+  - Bandit 
+```
+
 ## Theme & Tone
 
 Lighthearted episodic adventure. Tone sits close to a heist comedy or tavern-brawl romp — competent heroes who don't take themselves too seriously, banter between party members, colourful NPCs, and problems that can usually be solved with creativity as readily as swords. Dark moments are fine as contrast but should resolve toward hope or humour. Pacing target: **50% combat / 30% roleplay / 20% exploration**. Each session should feel complete on its own — a self-contained job with a clear beginning, middle, and end.
