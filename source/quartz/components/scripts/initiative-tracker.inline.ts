@@ -267,6 +267,15 @@ function locateStatblock(c: Combatant, btn: HTMLButtonElement) {
     return
   }
 
+  // On phones the sidebar covers the full screen (see the 600px
+  // breakpoint below), so it has to get out of the way for the
+  // statblock underneath to actually be visible. The reopen tab
+  // (shown automatically by hideSidebar while combatants remain)
+  // brings the tracker back.
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    hideSidebar()
+  }
+
   const card = target.closest<HTMLElement>(".statblock") ?? target
   card.scrollIntoView({ behavior: "smooth", block: "center" })
   card.classList.add("is-located-highlight")
@@ -588,11 +597,11 @@ function renderRows() {
     locate.className = "initiative-row-locate"
     locate.setAttribute("aria-label", `Find ${c.sourceName}'s statblock on this page`)
     locate.title = "Find statblock on this page"
-    locate.textContent = "\u{1F4CD}"
+    locate.textContent = "\u{1F4C4}"
     locate.addEventListener("click", () => locateStatblock(c, locate))
 
-    rowTop.append(initInput, name, remove)
-    rowMeta.append(ac, hpWrap, mod, locate, editToggle)
+    rowTop.append(initInput, name, locate, remove)
+    rowMeta.append(ac, hpWrap, mod, editToggle)
     entry.appendChild(rowTop)
     entry.appendChild(rowMeta)
     entry.appendChild(editPanel)

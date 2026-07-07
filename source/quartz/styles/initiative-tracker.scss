@@ -179,6 +179,24 @@
     white-space: nowrap;
   }
 
+  .initiative-row-locate {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    color: var(--dark);
+    cursor: pointer;
+    font-size: 0.85rem;
+    line-height: 1;
+
+    &:hover {
+      color: var(--secondary);
+    }
+
+    &.is-not-found {
+      animation: initiative-locate-shake 0.4s ease;
+    }
+  }
+
   .initiative-row-remove {
     flex-shrink: 0;
     background: none;
@@ -249,23 +267,6 @@
       border-radius: 3px;
       background: var(--light);
       cursor: pointer;
-    }
-  }
-
-  .initiative-row-locate {
-    background: none;
-    border: none;
-    color: var(--dark);
-    cursor: pointer;
-    font-size: 0.9rem;
-    line-height: 1;
-
-    &:hover {
-      color: var(--secondary);
-    }
-
-    &.is-not-found {
-      animation: initiative-locate-shake 0.4s ease;
     }
   }
 
