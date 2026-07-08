@@ -60,7 +60,7 @@ title: Campaign 1
 | ------- | --------- | --------------------------------- |
 | 1       | June      | [[AOFS Scenario - No Mans Land]]  |
 | 2       | July      | [[AOFS Scenario - Hold The Line]] |
-| 3       | August    | To be confirmed...                |
+| 3       | August    | [[AOFS Scenario - The Relic]]     |
 | 4       | September | To be confirmed...                |
 | 5       | October   | To be confirmed...                |
 | 6       | November  | To be confirmed...                |
@@ -103,6 +103,9 @@ title: Campaign 1
 > 
 > **Mission Rewards**: In addition to mission objectives, the winning warband gets 20pts, whilst all losing warbands get 40pts instead.
 > 
+
+>[!summary] Random Events
+> At the beginning of each round, roll one die. On a 5+ an event is triggered, and you must roll two dice to determine which one is triggered (See [[AOFS Random Events]]).
 
 >[!summary] Checking Casualties
 > This campaign is has a chance of Permadeath.
