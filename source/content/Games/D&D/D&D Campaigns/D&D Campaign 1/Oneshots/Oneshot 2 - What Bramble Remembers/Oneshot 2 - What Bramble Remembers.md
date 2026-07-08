@@ -30,11 +30,11 @@ The guild board carries a contract marked URGENT: *"Millhaven residents report u
 
 ## Acts
 
-| Act | Summary |
-|---|---|
-| [[Act 1 - Hearth and Feathers]] | The party investigates the disturbances, meets Durgin and Bramble, and shares a warm evening at the cottage — setting up everything the next two acts will cost them. |
-| [[Act 2 - The Weight of the Work]] | Overnight the disturbances change; tracks in the Thornwood reveal Durgin's failed experiments, and his journal in the empty cottage reveals why he did it. |
-| [[Act 3 - What Bramble Remembers]] | The party follows the tracks to the Binding Glade, finds what Durgin has become, and must decide what to do before Magistra Velthrane arrives to claim her specimen. |
+| Act                                | Summary                                                                                                                                                               |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Act 1 - Hearth and Feathers]]    | The party investigates the disturbances, meets Durgin and Bramble, and shares a warm evening at the cottage — setting up everything the next two acts will cost them. |
+| [[Act 2 - The Weight of the Work]] | Overnight the disturbances change; tracks in the Thornwood reveal Durgin's failed experiments, and his journal in the empty cottage reveals why he did it.            |
+| [[Act 3 - What Bramble Remembers]] | The party follows the tracks to the Binding Glade, finds what Durgin has become, and must decide what to do before Magistra Velthrane arrives to claim her specimen.  |
 
 ## Possible Endings
 
