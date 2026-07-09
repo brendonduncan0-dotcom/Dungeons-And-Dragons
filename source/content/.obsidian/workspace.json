@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
+                "file": "Games/AOFS/AOFS Scenarios/AOFS Scenario - The Relic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOFS Campaign 1"
+              "title": "AOFS Scenario - The Relic"
             }
           },
           {
@@ -259,8 +259,8 @@
   },
   "active": "42a62a3f22dba9a9",
   "lastOpenFiles": [
-    "Games/AOFS/AOFS Scenarios/AOFS Scenario - The Relic.md",
     "Games/AOFS/AOFS Campaigns/AOFS Campaign 1.md",
+    "Games/AOFS/AOFS Scenarios/AOFS Scenario - The Relic.md",
     "Games/AOFS/AOFS.md",
     "Games/AOFS/AOFS Scenarios/AOFS Scenario - No Mans Land.md",
     "Games/AOFS/AOFS Reference/AOFS Random Events.md",

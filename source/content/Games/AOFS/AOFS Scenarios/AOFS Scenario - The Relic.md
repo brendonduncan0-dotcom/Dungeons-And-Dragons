@@ -6,11 +6,11 @@ title: Scenario - The Relic
 >[!summary] Objectives
 > Before deployment, place a single Relic marker in the centre of the board.
 > 
-> A unit can pick up the Relic by moving into base contact with it. The Relic is then carried by that unit and moves with it for the rest of the game.
+> At the end of each round, if a unit is within 3" of the Relic marker whilst enemies aren't, that unit picks up the Relic. The Relic is then carried by that unit and moves with it for the rest of the game.
 > 
 > If the unit carrying the Relic is knocked out or routed, the Relic is immediately dropped and placed at that unit's last position.
 > 
-> During its activation, a unit carrying the Relic may pass it to a friendly unit within 1".
+> During its activation, a unit carrying the Relic may pass it to a friendly unit up to 1" away.
 
 >[!summary] Deployment
 > The players roll-off, and the winner picks zone A or B to be their deployment zone, with their opponent taking the opposite. Zones A and B are on opposite short ends of the board. Then the players alternate in placing one unit each within their deployment zone, starting with the player that won the deployment roll-off.
