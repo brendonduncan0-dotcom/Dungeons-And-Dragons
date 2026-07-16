@@ -25,16 +25,16 @@ title: Campaign 1
 
 ## Leader Board
 
-| Player  | Discord Username     | Warband Link                                                                                                      | File Pack                                             | Matches Played | Wins | Total VP | Average VP/Game |
-| ------- | -------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------- | ---- | -------- | --------------- |
-| Brendon | Brendon D            | [Brendon's Goblins](https://army-forge.onepagerules.com/share?id=I58oAcWlvpAG&name=Brendon_Campaign%201)          |                                                       | 2              | 2    | 42       | 21              |
-| Austin  | Ereptile Dysfunction | [Austin's Havoc Warriors](https://army-forge.onepagerules.com/share?id=cVCrNEpCVyAE&name=Austin_Campaign%201)     |                                                       | 1              | 1    | 16       | 16              |
-| Grae    | Grae                 | [Grae's Havoc Dwarves](https://army-forge.onepagerules.com/share?id=PVNxTIZ6Ssm-&name=Grae_Campaign%201)          |                                                       | 1              | 1    | 13       | 13              |
-| AJ      | manjewelz            | [AJ's High Elves](https://army-forge.onepagerules.com/share?id=qrIlDJ6Zcq_o&name=AJ_Campaign%201)                 |                                                       | 2              | 1    | 23       | 11.5            |
-| Chad    | NikoLiberty2008      | [Chad's Human Empire](https://army-forge.onepagerules.com/share?id=ItqOkaeLb9mJ&name=Chad_Campaign%201))          |                                                       | 2              | 1    | 22       | 11              |
-| Mira    | Mira                 | [Mira's Kingdom of Angels](https://army-forge.onepagerules.com/share?id=e6RkKpnq_cNj&name=Mira_Campaign%201)      |                                                       | 2              | 1    | 20       | 10              |
-| Jarrett | mith                 | [Jarrett's Sky City Dwarves](https://army-forge.onepagerules.com/share?id=uTZtwfprhOCB&name=Jarrett_Campaign%201) | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 2              | 0    | 6        | 3               |
-| Simon   | simonljonesy         | To be confirmed...                                                                                                |                                                       | 2              | 0    | 0        | 0               |
+| Player  | Discord Username     | Warband Link                                   | File Pack                                             | Matches Played | Wins | Total VP | Average VP/Game |
+| ------- | -------------------- | ---------------------------------------------- | ----------------------------------------------------- | -------------- | ---- | -------- | --------------- |
+| Brendon | Brendon D            | [[Army Forge _ Brendon Campaign 1 205pts.pdf]] |                                                       | 2              | 2    | 42       | 21              |
+| Austin  | Ereptile Dysfunction | [[Army Forge _ Austin Campaign 1 205pts.pdf]]  |                                                       | 1              | 1    | 16       | 16              |
+| Grae    | Grae                 | [[Army Forge _ Grae Campaign 1 205pts.pdf]]    |                                                       | 1              | 1    | 13       | 13              |
+| AJ      | manjewelz            | [[Army Forge _ AJ Campaign 1 220pts.pdf]]      |                                                       | 2              | 1    | 23       | 11.5            |
+| Chad    | NikoLiberty2008      | [[Army Forge _ Chad Campaign 1 235pts.pdf]]    |                                                       | 2              | 1    | 22       | 11              |
+| Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 210pts.pdf]]    |                                                       | 2              | 1    | 20       | 10              |
+| Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 180pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 2              | 0    | 6        | 3               |
+| Simon   | simonljonesy         | To be confirmed...                             |                                                       | 2              | 0    | 0        | 0               |
 
 
 ---
