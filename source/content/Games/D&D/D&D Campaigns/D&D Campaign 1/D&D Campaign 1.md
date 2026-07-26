@@ -106,3 +106,4 @@ One-shots are listed in play order. Read this list before generating a new one-s
 
 - [[Oneshot 1 - One Giant Leap for Ratkin]] — A moonrat conspiracy to knock down the moon (believed to be cheese) climaxes during a lunar eclipse. City merchant job, warehouse theft, underground warren, rooftop climax.
 - [[Oneshot 2 - What Bramble Remembers]] — A dwarf wizard and his baby owlbear familiar. Necromantic soul-transfer. An undead owlbear that speaks in a dead man's voice. Three endings, none easy.
+- [[Oneshot 3 - The Wyrm Who Cried Dragon]] — A red dragon wyrmling with a Ring of Minor Illusions extorts a village by posing as an ancient dragon. Moral choice: expose the con or protect the con artist, complicated by his very real, very furious mother.
