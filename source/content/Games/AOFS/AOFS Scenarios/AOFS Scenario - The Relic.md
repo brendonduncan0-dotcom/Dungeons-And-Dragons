@@ -8,7 +8,7 @@ title: Scenario - The Relic
 > 
 > At the end of each round, if a unit is within 3" of the Relic marker whilst enemies aren't, that unit picks up the Relic. The Relic is then carried by that unit and moves with it for the rest of the game.
 > 
-> If the unit carrying the Relic is knocked out or routed, the Relic is immediately dropped and placed at that unit's last position.
+> If the unit carrying the Relic is shaken, knocked out or routed, the Relic is immediately dropped and placed at that unit's last position.
 > 
 > During its activation, a unit carrying the Relic may pass it to a friendly unit up to 1" away.
 
