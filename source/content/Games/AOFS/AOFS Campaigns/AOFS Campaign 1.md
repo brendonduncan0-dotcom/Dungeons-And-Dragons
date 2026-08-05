@@ -34,7 +34,7 @@ title: Campaign 1
 | Chad    | NikoLiberty2008      | [[Army Forge _ Chad Campaign 1 235pts.pdf]]    |                                                       | 2              | 1    | 22       | 11              |
 | Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 210pts.pdf]]    |                                                       | 2              | 1    | 20       | 10              |
 | Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 180pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 2              | 0    | 6        | 3               |
-| Simon   | simonljonesy         | To be confirmed...                             |                                                       | 2              | 0    | 0        | 0               |
+| Simon   | simonljonesy         | [[Army Forge _ Simon Campain 1 200pts.pdf]]    |                                                       | 2              | 0    | 0        | 0               |
 
 
 ---
