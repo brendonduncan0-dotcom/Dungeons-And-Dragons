@@ -28,11 +28,11 @@ title: Campaign 1
 | Player  | Discord Username     | Warband Link                                   | File Pack                                             | Matches Played | Wins | Total VP | Average VP/Game |
 | ------- | -------------------- | ---------------------------------------------- | ----------------------------------------------------- | -------------- | ---- | -------- | --------------- |
 | Brendon | Brendon D            | [[Army Forge _ Brendon Campaign 1 195pts.pdf]] |                                                       | 3              | 3    | 53       | 17.67           |
-| Austin  | Ereptile Dysfunction | [[Army Forge _ Austin Campaign 1 205pts.pdf]]  |                                                       | 1              | 1    | 16       | 16              |
+| Austin  | Ereptile Dysfunction | [[Army Forge _ Austin Campaign 1 240pts.pdf]]  |                                                       | 2              | 2    | 21       | 10.5            |
 | Chad    | NikoLiberty2008      | [[Army Forge _ Chad Campaign 1 225pts.pdf]]    |                                                       | 3              | 2    | 30       | 10              |
-| Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 210pts.pdf]]    |                                                       | 2              | 1    | 20       | 10              |
 | Grae    | Grae                 | [[Army Forge _ Grae Campaign 1 250pts.pdf]]    |                                                       | 2              | 1    | 18       | 9               |
 | AJ      | manjewelz            | [[Army Forge _ AJ Campaign 1 260pts.pdf]]      |                                                       | 3              | 1    | 23       | 7.67            |
+| Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 250pts.pdf]]    |                                                       | 3              | 1    | 20       | 6.67            |
 | Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 180pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 2              | 0    | 6        | 3               |
 | Simon   | simonljonesy         | [[Army Forge _ Simon Campain 1 200pts.pdf]]    |                                                       | 2              | 0    | 0        | 0               |
 
