@@ -7,7 +7,7 @@ title: Scenario - Hardpoint 2v2
 >[!summary] Objectives
 > Before deployment, players have to set up 5 objective markers, as shown in the mission diagram. 
 > 
-> The hardpoint starts at objective marker 1, the players then randomly determine the remaining sequence. Only one hardpoint is ever active at a time, deactivated locations cannot be reused and have no effect for the remainder of the game. 
+> The hardpoint starts at objective marker 1, the players then randomly determine the remaining sequence. Only one hardpoint is ever active at a time, deactivated locations cannot be reactivated and have no effect for the remainder of the game. 
 > 
 > At the end of round 1, the Hardpoint deactivates at location 1 and reactivates at the next objective marker in sequence. It continues changing to the next location at the end of each subsequent round.
 > 
