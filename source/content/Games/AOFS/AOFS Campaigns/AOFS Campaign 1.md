@@ -61,7 +61,7 @@ title: Campaign 1
 | 1       | June      | [[AOFS Scenario - No Mans Land]]  |
 | 2       | July      | [[AOFS Scenario - Hold The Line]] |
 | 3       | August    | [[AOFS Scenario - The Relic]]     |
-| 4       | September | To be confirmed...                |
+| 4       | September | [[AOFS Scenario - Hardpoint 2v2]] |
 | 5       | October   | To be confirmed...                |
 | 6       | November  | To be confirmed...                |
 | 7       | December  | To be confirmed...                |
