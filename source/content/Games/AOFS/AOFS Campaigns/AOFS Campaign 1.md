@@ -33,8 +33,8 @@ title: Campaign 1
 | Grae    | Grae                 | [[Army Forge _ Grae Campaign 1 250pts.pdf]]    |                                                       | 2              | 1    | 18       | 9               |
 | AJ      | manjewelz            | [[Army Forge _ AJ Campaign 1 260pts.pdf]]      |                                                       | 3              | 1    | 23       | 7.67            |
 | Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 250pts.pdf]]    |                                                       | 3              | 1    | 20       | 6.67            |
-| Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 180pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 2              | 0    | 6        | 3               |
-| Simon   | simonljonesy         | [[Army Forge _ Simon Campain 1 200pts.pdf]]    |                                                       | 2              | 0    | 0        | 0               |
+| Simon   | simonljonesy         | [[Army Forge _ Simon 220pts.pdf]]              |                                                       | 3              | 0    | 20       | 6.67            |
+| Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 255pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 3              | 0    | 8        | 2.67            |
 
 
 ---
